@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react';
 import apiServices from '../services/backEndServices';
 import axiosInstance from '../config/axiosConfig';
 
-const useAnalytics = (initialIdentifier, type)=>{
+const useAnalytics = (initialIdentifier, initialType)=>{
     const [count, setCount] = useState(0);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
