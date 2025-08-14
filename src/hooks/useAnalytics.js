@@ -2,16 +2,19 @@ import {useState, useEffect} from 'react';
 import apiServices from '../services/backEndServices';
 import axiosInstance from '../config/axiosConfig';
 
-const useAnalytics = (identifier, type)=>{
+const useAnalytics = (initialIdentifier, type)=>{
     const [count, setCount] = useState(0);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
 
-    const increment = async ()=>{
+    const increment = async (newIdentifier, newType)=>{
         setLoading(true);
         setError(null);
         try{
             let response;
+            const identifier = newIdentifier || initialIdentifier;
+            const type = newType || initialType;
+
             if(type === 'portfolio'){
                 response = await apiServices.incrementServiceView();
             }else if (type === 'tab'){
