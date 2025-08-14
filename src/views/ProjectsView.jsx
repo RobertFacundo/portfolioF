@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { projects } from "../data";
 import { StyledProjectsContainer, StyledProjectCard, StyledHighlight } from '../styles/ProjectViewsStyles.js';
 import reactLogo from '../assets/programmingLanguages/react.png'
+import useAnalytics from "../hooks/useAnalytics.js";
 
 const ProjectsView = () => {
+    const { increment } = useAnalytics('projectsView', 'tab');
+
+    useEffect(() => {
+        increment();
+    }, [])
+
     const handleProjectClick = (project) => {
         window.open(project.frontendRepo, '_blank');
         if (project.backendRepo) { window.open(project.backendRepo, '_blank'); }
