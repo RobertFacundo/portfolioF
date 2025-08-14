@@ -34,7 +34,7 @@ const ProjectsView = () => {
             </p>
             {projects.map((project, index) => {
                 return (
-                    <StyledProjectCard index={index} key={index} onClick={() => handleProjectClick(project)}>
+                    <StyledProjectCard index={index} key={index} >
                         <div className="card-info">
                             <h2 onClick={() => handleDeployedUrlClick(project)} style={{ cursor: 'pointer' }}>{project.title}</h2>
                             <div className="icons-container">
