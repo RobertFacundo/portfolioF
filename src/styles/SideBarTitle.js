@@ -1,0 +1,59 @@
+import styled, { keyframes } from "styled-components";
+
+// Keyframes for the typing effect
+const typing = keyframes`
+  0%, 100% { content: ""; }
+  2.5% { content: "F"; }
+  5% { content: "Fa"; }
+  7.5% { content: "Fac"; }
+  10% { content: "Facu"; }
+  12.5% { content: "Facun"; }
+  15% { content: "Facund"; }
+  17.5% { content: "Facundo"; }
+  20% { content: "Facundo "; }
+  22.5% { content: "Facundo R"; }
+  25% { content: "Facundo Ro"; }
+  27.5% { content: "Facundo Rob"; }
+  30% { content: "Facundo Robe"; }
+  32.5% { content: "Facundo Rober"; }
+  35% { content: "Facundo Robert"; }
+  60%, 100% { content: "Facundo Robert"; } // The text stays visible for a period before repeating
+`;
+
+// Keyframes for the blinking caret
+const blink = keyframes`
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+`;
+
+export const StyledSideBarTitle = styled.h1`
+  position: relative;
+  font-size: 2.1em;
+  color: #00FF41; // Choose a color that fits your theme
+  letter-spacing: 2px;
+  
+  
+  // The content is injected here
+  &::before {
+    content: " "; // Initial content
+    animation: ${typing} 16s steps(14) 1 forwards; // 6s duration for a single phrase
+  }
+
+  // The blinking caret
+  &::after {
+    content: "|"; // The caret character
+    border-right: 3px solid transparent; // Use transparent border for the blink effect
+    animation: ${blink} 0.6s linear infinite;
+  }
+  
+  @media (max-width: 768px) {
+    font-size: 3em;
+    letter-spacing: 3px;
+  }
+`;
+
+export const Wrapper = styled.div`
+  margin-left: 1rem;
+  display: grid;
+  place-items: center;
+`;
