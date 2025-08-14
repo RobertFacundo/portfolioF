@@ -10,10 +10,11 @@ import GlobalStyle from "./styles/GlobalStyles";
 import useAnalytics from "./hooks/useAnalytics"
 
 function App() {
-  const { increment } = useAnalytics('portfolio-views', 'portfolio');
+  const { increment, logVisit } = useAnalytics('portfolio-views', 'portfolio');
 
   useEffect(() => {
-    increment()
+    increment();
+    logVisit();
   }, [])
 
   return (

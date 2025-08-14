@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react';
 import apiServices from '../services/backEndServices';
+import axiosInstance from '../config/axiosConfig';
 
 const useAnalytics = (identifier, type)=>{
     const [count, setCount] = useState(0);
@@ -31,7 +32,16 @@ const useAnalytics = (identifier, type)=>{
         }
     };
 
-    return {count, loading, error, increment}
+    const logVisit = async ()=>{
+        try{
+            await apiServices.logPortfolioVisit();
+            console.log('Portfolio visit logged successfully');
+        }catch(err){
+            console.error('Failed to log portfoliovisit:', err)
+        }
+    };
+
+    return {count, loading, error, increment, logVisit}
 };
 
 export default useAnalytics;

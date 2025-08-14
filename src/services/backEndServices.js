@@ -58,6 +58,16 @@ const apiServices = {
             console.error('Error in getAllTabVisits:', error.response?.data || error.message);
             return {success: false, message: error.response?.message || 'Failed to fetch tab visit counts'};
         }
+    },
+    
+    logPortfolioVisit: async()=>{
+        try{
+            const response = await axiosInstance.post('/api/views/logs');
+            return {success: true, message: response.data.message};
+        }catch(error){
+            console.error('Errorin logPortfolioVisit:', error.response?.data || error.message);
+            return {success: false, message: error.response?.data?.message || 'Failed to log visit'};
+        }
     }
 };
 
