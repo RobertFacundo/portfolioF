@@ -16,23 +16,35 @@ export const StyledProjectsContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
 
-    .disclaimer {
+    .disclaimer-container {
         width: 100%;
-        text-align: left;
-        font-size:0.8rem ;
+        display:flex;
+        justify-content: space-between;
+        font-size: 0.9rem;
         font-style: italic;
         margin-left: 1rem;
         color: rgba(255, 255, 255, 0.7);
-        a{
-            color: #00FF41;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        .disclaimer-left {
+            text-align: left;
+
+            .tech-logo {
+              height: 5em; // Sets the height of the logo to match the font size
+              width: auto; // Maintains the logo's aspect ratio
+              vertical-align: middle; // Aligns the logo vertically with the text
+            }
+
+            a{
+                color: #00FF41;
+            }
         }
-        .tech-logo {
-          height: 5em; // Sets the height of the logo to match the font size
-          width: auto; // Maintains the logo's aspect ratio
-          vertical-align: middle; // Aligns the logo vertically with the text
-          /* margin: 0 0.25em; // Adds a small space around the logo */
+        .disclaimer-right{
+            text-align: right;
+            padding-right: 1rem;
         }
     }
 `;
@@ -41,7 +53,6 @@ export const StyledProjectCard = styled.div`
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 8px;
     overflow: hidden;
-    cursor: pointer;
     transition: all 0.4s ease;
 
     animation: ${slideIn} 2.6s ease-out forwards;
@@ -55,7 +66,7 @@ export const StyledProjectCard = styled.div`
 
     img{
         width: 100%;
-        height: 190px;
+        height: 220px;
         object-fit: cover;
     }
 
@@ -73,7 +84,9 @@ export const StyledProjectCard = styled.div`
 
         .icons-container {
             display: flex;
-            gap: 0.2rem;
+            flex-direction: row;
+            gap: 0.3rem;
+
         }
         .tech-icons {
             width: 50px;
