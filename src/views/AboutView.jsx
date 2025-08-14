@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { StyledAboutContentContainer, StyledSideBarContainer, StyledAboutView } from '../styles/AboutViewStyles.js'
 import SideBarTitle from "../components/sidebar/SideBarTitle.jsx";
 import Contact from "../components/sidebar/Contact.jsx";
