@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import { Routes, Route } from "react-router-dom"
 import ProjectsView from "./views/ProjectsView"
 import NavBar from "./components/NavBar"
