@@ -12,6 +12,8 @@ const ProjectsView = () => {
     }, [])
 
     const handleProjectClick = (project) => {
+        increment(project.title, 'project')
+
         window.open(project.frontendRepo, '_blank');
         if (project.backendRepo) { window.open(project.backendRepo, '_blank'); }
         window.open(project.deployedUrl, '_blank');
