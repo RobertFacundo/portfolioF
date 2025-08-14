@@ -6,8 +6,14 @@ import CertificationsView from "./views/CertificationsView"
 import Footer from "./components/Footer"
 import './i18n/i18n';
 import GlobalStyle from "./styles/GlobalStyles";
+import useAnalytics from "./hooks/useAnalytics"
 
 function App() {
+  const { increment } = useAnalytics('portfolio-views', 'portfolio');
+
+  useEffect(() => {
+    increment()
+  }, [])
 
   return (
     <>
@@ -16,9 +22,9 @@ function App() {
       <Routes>
         <Route path="/" element={<ProjectsView />} />
         <Route path="/About" element={<AboutView />} />
-        <Route path="/Certifications" element={<CertificationsView/>}/>
+        <Route path="/Certifications" element={<CertificationsView />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </>
   )
 }

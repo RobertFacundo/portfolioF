@@ -39,6 +39,26 @@ const apiServices = {
             return { success: false, message: error.response?.data?.message || error.message || 'Failed to fetch project clicks counts' }
         }
     },
+
+    incrementTabVisit: async (tabName) => {
+        try {
+            const response = await axiosInstance.post(`/api/tabs/increment/${tabName}`);
+            return { success: true, tabName: response.data.tabName, visitCount: response.data.VisitCount }
+        } catch (error) {
+            console.error(`Error in incrementingTabVisit for ${tabName}:`, error.response?.data || error.message);
+            return { success: false, message: error.response?.data?.message || `Failed to increment visit count for ${tabName}` }
+        }
+    },
+
+    getAllTabVisits: async ()=>{
+        try{
+            const response = await axiosInstance.get('/api/tabs/visits');
+            return {success: true, tabVisits: response.data.tabVisits};
+        }catch(error){
+            console.error('Error in getAllTabVisits:', error.response?.data || error.message);
+            return {success: false, message: error.response?.message || 'Failed to fetch tab visit counts'};
+        }
+    }
 };
 
 export default apiServices;
