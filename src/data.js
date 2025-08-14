@@ -1,6 +1,6 @@
 import bootStrapLogo from './assets/programmingLanguages/Bootstrap.png';
 import cssLogo from './assets/programmingLanguages/css.png';
-import djangoLogo from './assets/programmingLanguages/Django.png';
+import djangoLogo from './assets/programmingLanguages/django.png';
 import dockerLogo from './assets/programmingLanguages/Docker.png';
 import gitLogo from './assets/programmingLanguages/Git.png';
 import html5Logo from './assets/programmingLanguages/html-5.png';
