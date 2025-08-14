@@ -3,10 +3,10 @@ import CertificationsContainer from "../components/CertificationsContainer";
 import useAnalytics from "../hooks/useAnalytics";
 
 const CertificationsView = () => {
-    const { identifier } = useAnalytics('certificationView', 'tab');
+    const { increment } = useAnalytics('certificationView', 'tab');
 
     useEffect(() => {
-        identifier();
+        increment();
     }, [])
 
     return (
