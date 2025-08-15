@@ -45,6 +45,7 @@ export const StyledProjectsContainer = styled.div`
         .disclaimer-right{
             text-align: right;
             padding-right: 1rem;
+            max-width: 800px;
         }
     }
 `;

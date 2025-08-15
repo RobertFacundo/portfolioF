@@ -4,9 +4,11 @@ import { StyledProjectsContainer, StyledProjectCard, StyledHighlight } from '../
 import { FaGithub } from "react-icons/fa";
 import reactLogo from '../assets/programmingLanguages/react.png'
 import useAnalytics from "../hooks/useAnalytics.js";
+import { useTranslation, Trans } from "react-i18next";
 
 const ProjectsView = () => {
     const { increment } = useAnalytics('projectsView', 'tab');
+    const { t } = useTranslation();
 
     useEffect(() => {
         increment();
@@ -29,12 +31,19 @@ const ProjectsView = () => {
         <StyledProjectsContainer>
             <p className="disclaimer-container">
                 <p className="disclaimer-left">
-                    - Every project was made with a <img src={reactLogo} alt="React front end" className="tech-logo" /> Front-End deployed on <a href="https://vercel.com/robertfacundos-projects" target="_blank" rel="noopener noreferrer">Vercel</a>.
+                    <Trans
+                        i18nKey="disclaimer_left"
+                        components={{
+                            1: <img src={reactLogo} alt="React front end" className="tech-logo" />,
+                            2: <a href="https://vercel.com/robertfacundos-projects" target="_blank" rel="noopener noreferrer"></a>
+                        }}
+                    />
                 </p>
                 <p className="disclaimer-right">
-                    - Clicking the <StyledHighlight>project title</StyledHighlight> will open the deployed URL.<br />
-                    - Clicking the <StyledHighlight>Backend icon</StyledHighlight> or the <StyledHighlight>Frontend GitHub icon</StyledHighlight> will open their respective repositories.<br />
-                    - Please note that the backends for these projects, deployed on <StyledHighlight>Render</StyledHighlight>, may experience a <StyledHighlight>cold start</StyledHighlight> on the first visit, causing a brief delay.
+                    <Trans
+                        i18nKey="disclaimer"
+                        components={{ highlight: <StyledHighlight /> }}
+                    />
                 </p>
             </p>
             {
