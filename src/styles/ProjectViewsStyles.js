@@ -47,6 +47,10 @@ export const StyledProjectsContainer = styled.div`
             padding-right: 1rem;
             max-width: 800px;
         }
+
+        @media (max-width: 768px){
+            font-size: 0.6rem;
+        }
     }
 `;
 

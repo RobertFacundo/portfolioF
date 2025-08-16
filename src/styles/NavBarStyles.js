@@ -15,12 +15,8 @@ export const StyledNav = styled.nav`
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   font-family: 'Comfortaa', cursive; /* Make sure this font is imported globally if used */
 
-  @media (max-width: 768px) {
+  @media (max-width: 768px){
     flex-direction: column;
-    .navbar-links { /* This class will be NavList */
-      margin-top: 1rem;
-      gap: 1rem;
-    }
   }
 `;
 
@@ -34,6 +30,11 @@ export const NavList = styled.ul`
   display: flex;
   gap: 12rem; /* Large space between the navigation links */
   margin-left: 10rem;
+
+  @media (max-width: 768px){
+    gap:0;
+    margin-left: 0;
+  }
 `;
 
 export const NavItem = styled.li`
@@ -61,6 +62,10 @@ export const NavItem = styled.li`
     &.active {
       transform: scale(1.2);
       color: #00FF41;
+    }
+
+    @media (max-width: 768px){
+      font-size: 1rem;
     }
   }
 `;

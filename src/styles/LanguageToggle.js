@@ -17,6 +17,11 @@ export const LanguageIcon = styled.img`
     height: 25px;
     object-fit: contain;
     filter: brightness(0) invert(1);
+
+    @media (max-width: 768px){
+        width: 21px;
+        height: 21px;
+    }
 `
 
 // Styled component for the flag image itself
@@ -29,6 +34,11 @@ export const FlagIconImg = styled.img`
 
     /* KEY: Transition for the scale effect */
     transition: transform 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
+
+    @media (max-width: 768px){
+        width: 27px;
+        height: 27px;
+    }
 `;
 
 // Styled button for language selection

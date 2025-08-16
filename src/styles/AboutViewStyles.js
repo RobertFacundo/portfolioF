@@ -9,7 +9,7 @@ export const StyledAboutView = styled.div`
 
     @media (max-width: 768px) {
         flex-direction: column;
-        padding: 2rem 1rem;
+        height: auto;
     }
 `;
 
@@ -24,11 +24,8 @@ export const StyledSideBarContainer = styled.div`
 
     @media (max-width: 768px){
         flex-basis: 100%;
-        border-right: none;
-        border-bottom: 2px solid #ffffff;
         padding-right: 0;
         padding-bottom: 2rem;
-        margin-bottom: 2rem;
     }
 `;
 
@@ -38,6 +35,7 @@ export const StyledAboutContentContainer = styled.div`
 
     @media (max-width: 768px){
         flex-basis: 100%;
-        padding-left: 0;
+        padding-left: 1rem;
+        margin-bottom: 3rem;
     }
 `;

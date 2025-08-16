@@ -6,6 +6,12 @@ export const StyledAboutSection = styled.div`
         border-bottom: 2px solid rgba(255, 255, 255, 0.2);
         letter-spacing: 0.3rem;
         font-size: 1.9em;
+
+        @media (max-width: 768px){
+            font-size: 1.5rem;
+            text-align: center;
+            padding-top: 0;
+        }
     }
     p{
         padding-top: 1rem;
@@ -16,6 +22,11 @@ export const StyledAboutSection = styled.div`
         font-size: 1.4rem; 
         letter-spacing: 1px;
         text-align: left;
+
+        @media (max-width: 768px){
+            font-size: 1.2rem;
+            text-align: center;
+        }
     }
 `;
 
