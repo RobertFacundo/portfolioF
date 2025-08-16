@@ -34,6 +34,7 @@ export const NavList = styled.ul`
   @media (max-width: 768px){
     gap:0;
     margin-left: 0;
+    flex-wrap: wrap;
   }
 `;
 
@@ -65,7 +66,7 @@ export const NavItem = styled.li`
     }
 
     @media (max-width: 768px){
-      font-size: 1rem;
+      font-size: 0.6;
     }
   }
 `;

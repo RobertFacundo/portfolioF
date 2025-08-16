@@ -47,7 +47,7 @@ export const StyledSideBarTitle = styled.h1`
   }
   
   @media (max-width: 768px) {
-    font-size: 3em;
+    font-size: 1.8;
     letter-spacing: 3px;
   }
 `;
