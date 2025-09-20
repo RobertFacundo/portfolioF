@@ -1,6 +1,5 @@
 import styled, { keyframes } from "styled-components";
 
-// Keyframes for the typing effect
 const typing = keyframes`
   0%, 100% { content: ""; }
   2.5% { content: "F"; }
@@ -17,10 +16,9 @@ const typing = keyframes`
   30% { content: "Facundo Robe"; }
   32.5% { content: "Facundo Rober"; }
   35% { content: "Facundo Robert"; }
-  60%, 100% { content: "Facundo Robert"; } // The text stays visible for a period before repeating
+  60%, 100% { content: "Facundo Robert"; } 
 `;
 
-// Keyframes for the blinking caret
 const blink = keyframes`
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
@@ -29,20 +27,19 @@ const blink = keyframes`
 export const StyledSideBarTitle = styled.h1`
   position: relative;
   font-size: 2.1em;
-  color: #00FF41; // Choose a color that fits your theme
+  color: #00FF41; 
   letter-spacing: 2px;
   
   
-  // The content is injected here
+  
   &::before {
-    content: " "; // Initial content
-    animation: ${typing} 16s steps(14) 1 forwards; // 6s duration for a single phrase
+    content: " "; 
+    animation: ${typing} 16s steps(14) 1 forwards; 
   }
 
-  // The blinking caret
   &::after {
-    content: "|"; // The caret character
-    border-right: 3px solid transparent; // Use transparent border for the blink effect
+    content: "|"; 
+    border-right: 3px solid transparent; 
     animation: ${blink} 0.6s linear infinite;
   }
   

@@ -22,6 +22,7 @@ import tailwindLogo from './assets/programmingLanguages/Tailwind.png';
 import typeScriptLogo from './assets/programmingLanguages/TypeScript.png';
 import viteLogo from './assets/programmingLanguages/Vite.png';
 import neonLogo from './assets/programmingLanguages/neonDB.png';
+import nextLogo from './assets/programmingLanguages/nextjs.png';
 
 import backEndI from './assets/certifications/BackEnd1.png';
 import backEnd2 from './assets/certifications/BackEnd2.png';
@@ -41,6 +42,7 @@ import digitalLibrary from './assets/projects/digitalLibrary.png';
 import historyWebSite from './assets/projects/historyWebSite.png';
 import photographicPortfolio from './assets/projects/photographicPortfolio.png';
 import artGallery from './assets/projects/artgallery.png';
+import seatMapBuilder from './assets/projects/seatMapBuilder.png'
 
 export const languageLogos = [
     // Main Programming Languages & Frameworks
@@ -50,6 +52,7 @@ export const languageLogos = [
     { src: reactLogo, alt: 'React', link: 'https://reactjs.org/' },
     { src: typeScriptLogo, alt: 'TypeScript', link: 'https://www.typescriptlang.org/' },
     { src: nodeLogo, alt: 'NodeJS', link: 'https://nodejs.org/' },
+    { src: nextLogo, alt: 'Next.js', link: 'https://nextjs.org/' },
     { src: nestLogo, alt: 'Nest', link: 'https://nestjs.com/' },
     { src: pythonLogo, alt: 'Python', link: 'https://www.python.org/' },
     { src: djangoLogo, alt: 'Django', link: 'https://www.djangoproject.com/' },
@@ -124,6 +127,15 @@ export const projects = [
         backendRepo: '',
         deployedUrl: 'https://videogame-searcher.vercel.app/',
         styleIcon: sassLogo,
+    },
+    {
+        title: 'Seat Map Builder',
+        projectImage: seatMapBuilder,
+        backendIcon: nextLogo,
+        frontendRepo: 'https://github.com/RobertFacundo/seat-map-builder',
+        backendRepo: 'https://github.com/RobertFacundo/seat-map-builder',
+        deployedUrl: 'https://seat-map-builder.vercel.app/',
+        styleIcon: cssLogo,
     },
     {
         title: 'History Web Site',
