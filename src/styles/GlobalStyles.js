@@ -25,6 +25,7 @@ const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialised;
     -moz-osx-font-smoothing: grayscale;
     height: 100%;
+    overflow-x: hidden;
   }
 
   ul {

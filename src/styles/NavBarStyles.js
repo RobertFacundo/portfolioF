@@ -1,19 +1,14 @@
-// src/styles/NavBarStyles.js
 import styled from "styled-components";
-// No need to import constants if you're using raw values, as requested earlier.
-// If you decide to re-introduce constants later, you'd add:
-// import { colors, spacing, fonts } from './constants';
-
 
 export const StyledNav = styled.nav`
   display: flex;
-  justify-content: space-between; /* Spreads out items evenly */
+  justify-content: space-between; 
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 0rem;
   padding-bottom: 0;
   background-color: #000000;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-  font-family: 'Comfortaa', cursive; /* Make sure this font is imported globally if used */
+  font-family: 'Comfortaa', cursive; 
 
   @media (max-width: 768px){
     flex-direction: column;
@@ -24,18 +19,29 @@ export const NavLinksWrapper = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;  
+
+  @media (max-width: 768px) {
+        /* CLAVE 1: En móvil, centramos el contenedor de la lista */
+        justify-content: center; 
+        width: 100%;
+        margin-top: 10px;
+    }
 `
 
 export const NavList = styled.ul`
   display: flex;
-  gap: 12rem; /* Large space between the navigation links */
-  margin-left: 10rem;
+  gap: 7rem; 
+  margin-left: 2rem;
+  align-items: center;
 
-  @media (max-width: 768px){
-    gap:0;
-    margin-left: 0;
-    flex-wrap: wrap;
-  }
+   @media (max-width: 768px){
+        /* CLAVE 2: En móvil, centramos los elementos dentro de la lista */
+        justify-content: center; 
+        gap: 0;
+        margin-left: 0;
+        flex-wrap: wrap;
+        width: 100%; /* Aseguramos que la lista tome todo el ancho disponible */
+    }
 `;
 
 export const NavItem = styled.li`
@@ -51,8 +57,10 @@ export const NavItem = styled.li`
     overflow: hidden;
     border: none;
 
+    line-height: 28px;
+
     transform: scale(1);
-    transition: color 0.3s ease, transform 0.5s ease; /* Animate both color and font size */
+    transition: color 0.3s ease, transform 0.5s ease; 
     text-transform: uppercase;
 
     &:hover {
@@ -66,7 +74,9 @@ export const NavItem = styled.li`
     }
 
     @media (max-width: 768px){
-      font-size: 0.6;
+      font-size: 1rem; 
+      padding: 8px 10px; /* Reducimos el padding para que quepan */
+      letter-spacing: 3px;
     }
   }
 `;

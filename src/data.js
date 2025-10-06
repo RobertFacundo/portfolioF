@@ -42,7 +42,8 @@ import digitalLibrary from './assets/projects/digitalLibrary.png';
 import historyWebSite from './assets/projects/historyWebSite.png';
 import photographicPortfolio from './assets/projects/photographicPortfolio.png';
 import artGallery from './assets/projects/artgallery.png';
-import seatMapBuilder from './assets/projects/seatMapBuilder.png'
+import seatMapBuilder from './assets/projects/seatMapBuilder.png';
+import coalitionTest from './assets/projects/coalitionTest.png';
 
 export const languageLogos = [
     // Main Programming Languages & Frameworks
@@ -129,15 +130,6 @@ export const projects = [
         styleIcon: sassLogo,
     },
     {
-        title: 'Seat Map Builder',
-        projectImage: seatMapBuilder,
-        backendIcon: nextLogo,
-        frontendRepo: '',
-        backendRepo: '',
-        deployedUrl: 'https://seat-map-builder.vercel.app/',
-        styleIcon: cssLogo,
-    },
-    {
         title: 'History Web Site',
         projectImage: historyWebSite,
         backendIcon: '',
@@ -181,5 +173,26 @@ export const projects = [
         backendRepo: 'https://github.com/RobertFacundo/authB',
         deployedUrl: 'https://authb.onrender.com/',
         styleIcon: cssLogo,
+    },
+]
+
+export const technicalChallenges = [
+
+    {
+        image: coalitionTest,
+        dateKey: 'challenge_coalition_test_date',
+        titleKey: 'challenge_coalition_test_title',
+        descriptionKey: 'challenge_coalition_test_description',
+        link: 'https://patient-dashboard-two-dun.vercel.app/',
+    },
+    {
+         image: seatMapBuilder,
+        // Usaremos una clave para la fecha si quieres traducirla (ej. Sep vs Septiembre)
+        dateKey: 'challenge_seat_map_date', 
+        // Usaremos una clave para el título
+        titleKey: 'challenge_seat_map_title', 
+        // Usaremos una clave para la descripción
+        descriptionKey: 'challenge_seat_map_description', 
+        link: 'https://seat-map-builder.vercel.app/',
     },
 ]

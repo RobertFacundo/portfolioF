@@ -17,6 +17,8 @@ export const StyledCertificationsContainer = styled.div`
     justify-content: center;
     gap: 1rem;
     padding: 1rem;
+
+    /* CLAVE 1: Transición para el efecto hover. Se aplica a 'transform' y es de 0.8s */
     
 `
 
