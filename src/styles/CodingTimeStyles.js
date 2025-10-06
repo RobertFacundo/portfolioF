@@ -11,6 +11,7 @@ export const CodingTimeContainer = styled.div`
 `;
 
 export const Label = styled.p`
+    white-space: nowrap; 
     text-align: left;
     font-size: 0.8rem;
     letter-spacing: 1.3px;
