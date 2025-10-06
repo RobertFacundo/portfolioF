@@ -49,6 +49,11 @@ const resources = {
             "total_coding_time_title": "Tiempo total de Codigo",
             "last_updated_label": "Última actualización:",
 
+            "challenge_seat_map_title": "Constructor de Mapas de Asientos",
+            "challenge_seat_map_date": "Septiembre de 2025",
+            "challenge_seat_map_description": "Desarrollado como un desafío técnico para demostrar habilidades avanzadas de front-end y gestión de estado. Construida con React y Next.js, esta herramienta interactiva permite a los usuarios diseñar y etiquetar mapas de asientos dinámicos desde cero. Las características clave incluyen un sistema avanzado de Arrastrar y Soltar (Drag and Drop) para reordenar filas, etiquetado por lotes para numeración masiva, e importación/exportación robusta de JSON con validación de esquema para la persistencia del mapa.",
+
+
             "challenge_coalition_test_title": "Panel de Control de Pacientes",
             "challenge_coalition_test_date": "Octubre 2023",
             "challenge_coalition_test_description": "Panel de control responsivo y con fidelidad pixel-perfect desarrollado en React. Replica un diseño detallado de visualización de datos médicos de pacientes, incluyendo la integración de Recharts para el historial de diagnóstico y arquitectura modular."
