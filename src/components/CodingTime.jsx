@@ -9,9 +9,9 @@ import {
 } from "../styles/CodingTimeStyles";
 
 const CODING_DATA = {
-    HOURS: 2022,
-    MINUTES: 2,
-    LAST_UPDATE: "2025-10-13"
+    HOURS: 2026,
+    MINUTES: 48,
+    LAST_UPDATE: "2025-10-15"
 };
 
 const TARGET_TOTAL_MINUTES = (CODING_DATA.HOURS * 60) + CODING_DATA.MINUTES;
