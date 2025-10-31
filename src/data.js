@@ -100,7 +100,7 @@ export const projects = [
         backendIcon: nodeLogo,
         frontendRepo: 'https://github.com/RobertFacundo/recipeAppF',
         backendRepo: 'https://github.com/RobertFacundo/recipeAppB',
-        deployedUrl: 'https://recipe-app-f.vercel.app/',
+        deployedUrl: 'https://dreamjournalb.onrender.com/',
         styleIcon: tailwindLogo,
     },
     {
