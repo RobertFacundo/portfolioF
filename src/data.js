@@ -44,6 +44,7 @@ import photographicPortfolio from './assets/projects/photographicPortfolio.png';
 import artGallery from './assets/projects/artgallery.png';
 import seatMapBuilder from './assets/projects/seatMapBuilder.png';
 import coalitionTest from './assets/projects/coalitionTest.png';
+import recipeApp from './assets/projects/recipeApp.png'
 
 export const languageLogos = [
     // Main Programming Languages & Frameworks
@@ -93,6 +94,15 @@ export const certifications = [
 
 export const projects = [
 
+    {
+        title: 'Recipe Hunter',
+        projectImage: recipeApp,
+        backendIcon: nodeLogo,
+        frontendRepo: 'https://github.com/RobertFacundo/recipeAppF',
+        backendRepo: 'https://github.com/RobertFacundo/recipeAppB',
+        deployedUrl: 'https://recipe-app-f.vercel.app/',
+        styleIcon: tailwindLogo,
+    },
     {
         title: 'Dream Journal',
         projectImage: dreamjournal,
