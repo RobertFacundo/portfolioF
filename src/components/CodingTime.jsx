@@ -9,8 +9,8 @@ import {
 } from "../styles/CodingTimeStyles";
 
 const CODING_DATA = {
-    HOURS: 2090,
-    MINUTES: 32,
+    HOURS: 2092,
+    MINUTES: 42,
     LAST_UPDATE: "2025-11-12"
 };
 

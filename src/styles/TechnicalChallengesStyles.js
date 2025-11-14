@@ -11,6 +11,7 @@ export const ChallengesList = styled.div`
 
     /* FIX 3: Oculta el desbordamiento causado por la transformación scale(1.01) en hover. */
     overflow-x: hidden;
+    border-top: 2px solid rgba(0, 255, 65, 0.2);
 `;
 
 export const ChallengeItem = styled.div`
@@ -21,16 +22,17 @@ export const ChallengeItem = styled.div`
     align-items: center; 
     padding-top: 10px;
     padding-bottom: 10px;
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.2); 
+    /* box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);  */
+    border-bottom: 2px solid rgba(0, 255, 65, 0.3);
 
-    transition: transform 0.8s ease-in-out, box-shadow 0.3s ease-in-out;
+    transition: transform 0.8s ease-in-out, border-bottom 0.3s ease-in-out;
     
     /* CLAVE 2: Efecto hover */
     &:hover {
         /* Un leve scale (ej. 1.01 = 1% más grande) para el efecto 3D */
         transform: scale(1.01);
         /* Opcional: Aumentamos la sombra en hover para mayor profundidad */
-        box-shadow: 0 0 40px rgba(255, 255, 255, 0.4);
+        border-bottom: 2px solid rgba(0, 255, 65, 0.5);
     }
 
     @media (max-width: 768px) {

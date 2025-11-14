@@ -7,6 +7,14 @@ export const CodingTimeContainer = styled.div`
     width: 170px;
     padding-left: 20px;
     font-family: 'Oxanium', sans-serif; 
+
+    @media (max-width:768px){
+        flex-direction: row;
+        width: 100vw;
+        gap: 3rem;
+        padding-bottom: 5px;
+        border-bottom: 2px solid rgba(0, 255, 65, 0.2);
+    }
     
 `;
 

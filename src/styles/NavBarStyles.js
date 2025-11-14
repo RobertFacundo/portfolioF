@@ -30,8 +30,8 @@ export const NavLinksWrapper = styled.div`
 
 export const NavList = styled.ul`
   display: flex;
-  gap: 7rem; 
-  margin-left: 2rem;
+  gap: 1rem; 
+  margin-left: 23rem;
   align-items: center;
 
    @media (max-width: 768px){
@@ -48,12 +48,12 @@ export const NavItem = styled.li`
   a {
     position: relative;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 8px 10px;
     text-decoration: none;
     color: #ffffff;
     font-family: 'VT323', monospace;
-    font-size: 1.8rem; /* Base font size */
-    letter-spacing: 6px;
+    font-size: 1.6rem; /* Base font size */
+    letter-spacing: 4px;
     overflow: hidden;
     border: none;
 
@@ -65,11 +65,11 @@ export const NavItem = styled.li`
 
     &:hover {
       color: #00FF41;
-      transform: scale(1.2);
+      transform: scale(1.08);
     }
 
     &.active {
-      transform: scale(1.2);
+      transform: scale(1.08);
       color: #00FF41;
     }
 

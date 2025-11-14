@@ -9,8 +9,13 @@ export const StyledAboutSection = styled.div`
 
         @media (max-width: 768px){
             font-size: 1.5rem;
-            text-align: center;
-            padding-top: 0;
+        text-align: center;
+        padding-top: 0;
+
+        /* Ajuste para el borde */
+        width: calc(100% - 30px); /* reduce ancho respecto al padding deseado */
+        margin: 0 auto;          /* centra el h1 */
+        border-bottom-width: 2px;
         }
     }
     p{

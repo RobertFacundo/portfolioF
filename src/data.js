@@ -23,6 +23,10 @@ import typeScriptLogo from './assets/programmingLanguages/TypeScript.png';
 import viteLogo from './assets/programmingLanguages/Vite.png';
 import neonLogo from './assets/programmingLanguages/neonDB.png';
 import nextLogo from './assets/programmingLanguages/nextjs.png';
+import chakraUI from './assets/programmingLanguages/chakra-ui.png';
+import redux from './assets/programmingLanguages/redux.png';
+import stripe from './assets/programmingLanguages/stripe.svg';
+import mercadoPago from './assets/programmingLanguages/mercadoPago.png';
 
 import backEndI from './assets/certifications/BackEnd1.png';
 import backEnd2 from './assets/certifications/BackEnd2.png';
@@ -44,16 +48,18 @@ import photographicPortfolio from './assets/projects/photographicPortfolio.png';
 import artGallery from './assets/projects/artgallery.png';
 import seatMapBuilder from './assets/projects/seatMapBuilder.png';
 import coalitionTest from './assets/projects/coalitionTest.png';
-import recipeApp from './assets/projects/recipeApp.png'
+import recipeApp from './assets/projects/recipeApp.png';
+import ecommerceMERN from './assets/projects/EcommerceMERN.png'
 
 export const languageLogos = [
     // Main Programming Languages & Frameworks
     { src: html5Logo, alt: 'HTML5', link: 'https://html.spec.whatwg.org/' },
     { src: cssLogo, alt: 'CSS', link: 'https://www.w3.org/Style/CSS/' },
     { src: jsLogo, alt: 'JavaScript', link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript' },
-    { src: reactLogo, alt: 'React', link: 'https://reactjs.org/' },
-    { src: typeScriptLogo, alt: 'TypeScript', link: 'https://www.typescriptlang.org/' },
     { src: nodeLogo, alt: 'NodeJS', link: 'https://nodejs.org/' },
+    { src: reactLogo, alt: 'React', link: 'https://reactjs.org/' },
+    { src: redux, alt: 'ReduxJS', link: 'https://redux.js.org/' },
+    { src: typeScriptLogo, alt: 'TypeScript', link: 'https://www.typescriptlang.org/' },
     { src: nextLogo, alt: 'Next.js', link: 'https://nextjs.org/' },
     { src: nestLogo, alt: 'Nest', link: 'https://nestjs.com/' },
     { src: pythonLogo, alt: 'Python', link: 'https://www.python.org/' },
@@ -65,6 +71,7 @@ export const languageLogos = [
     { src: sassLogo, alt: 'Sass', link: 'https://sass-lang.com/' },
     { src: tailwindLogo, alt: 'Tailwind', link: 'https://tailwindcss.com/' },
     { src: bootStrapLogo, alt: 'BootStrap', link: 'https://getbootstrap.com/' },
+    { src: chakraUI, alt: 'Chakra UI', link: 'https://chakra-ui.com/' },
 
     // Databases & Related Technologies
     { src: mongoDBLogo, alt: 'MongoDB', link: 'https://www.mongodb.com/' },
@@ -73,6 +80,8 @@ export const languageLogos = [
     { src: neonLogo, alt: 'Neon DB', link: 'https://neon.tech/' },
 
     // Tools & Platforms
+    { src: stripe, alt: 'Stripe', link: 'https://stripe.com/es-us' },
+    { src: mercadoPago, alt: 'Mercado Pago', link: 'https://www.mercadopago.com.ar/developers/es' },
     { src: gitLogo, alt: 'Git', link: 'https://git-scm.com/' },
     { src: npmLogo, alt: 'NPM', link: 'https://www.npmjs.com/' },
     { src: dockerLogo, alt: 'Docker', link: 'https://www.docker.com/' },
@@ -93,7 +102,15 @@ export const certifications = [
 ];
 
 export const projects = [
-
+    {
+        title: 'MERN Ecommerce',
+        projectImage: ecommerceMERN,
+        backendIcon: nodeLogo,
+        frontendRepo: 'https://github.com/RobertFacundo/professionalEcommerceF/',
+        backendRepo: 'https://github.com/RobertFacundo/professionalEcommerceB/',
+        deployedUrl: 'https://professionalecommerceb.onrender.com/',
+        styleIcon: chakraUI,
+    },
     {
         title: 'Recipe Hunter',
         projectImage: recipeApp,
@@ -196,13 +213,13 @@ export const technicalChallenges = [
         link: 'https://patient-dashboard-two-dun.vercel.app/',
     },
     {
-         image: seatMapBuilder,
+        image: seatMapBuilder,
         // Usaremos una clave para la fecha si quieres traducirla (ej. Sep vs Septiembre)
-        dateKey: 'challenge_seat_map_date', 
+        dateKey: 'challenge_seat_map_date',
         // Usaremos una clave para el título
-        titleKey: 'challenge_seat_map_title', 
+        titleKey: 'challenge_seat_map_title',
         // Usaremos una clave para la descripción
-        descriptionKey: 'challenge_seat_map_description', 
+        descriptionKey: 'challenge_seat_map_description',
         link: 'https://seat-map-builder.vercel.app/',
     },
 ]

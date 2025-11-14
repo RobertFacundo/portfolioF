@@ -17,6 +17,7 @@ export const StyledProjectsContainer = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
+    border-top: 2px solid rgba(0, 255, 65, 0.2);
 
     .disclaimer-container {
         width: 100%;
