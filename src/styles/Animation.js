@@ -20,8 +20,8 @@ export const StyledAnimationContainer = styled.div`
    width: 100%;
    cursor: pointer;
    /* border-right: 2px solid rgba(255, 255, 255, 0.2); */
-   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-   border-top: 2px solid rgba(255, 255, 255, 0.2);
+   border-bottom: 2px solid rgba(0, 255, 65, 0.2);;
+   border-top: 2px solid rgba(0, 255, 65, 0.2);;
 
    @media (max-width: 768px){
      padding: 5px 8px;

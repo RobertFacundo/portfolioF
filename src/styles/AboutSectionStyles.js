@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledAboutSection = styled.div`
     h1{
         padding-top: 3rem;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 2px solid rgba(0, 255, 65, 0.2);
         letter-spacing: 0.3rem;
         font-size: 1.9em;
 
