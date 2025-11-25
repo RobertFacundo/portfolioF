@@ -27,6 +27,7 @@ import chakraUI from './assets/programmingLanguages/chakra-ui.png';
 import redux from './assets/programmingLanguages/redux.png';
 import stripe from './assets/programmingLanguages/stripe.svg';
 import mercadoPago from './assets/programmingLanguages/mercadoPago.png';
+import MUILogo from './assets/programmingLanguages/MUI.png'
 
 import backEndI from './assets/certifications/BackEnd1.png';
 import backEnd2 from './assets/certifications/BackEnd2.png';
@@ -50,6 +51,7 @@ import seatMapBuilder from './assets/projects/seatMapBuilder.png';
 import coalitionTest from './assets/projects/coalitionTest.png';
 import recipeApp from './assets/projects/recipeApp.png';
 import ecommerceMERN from './assets/projects/EcommerceMERN.png'
+import paymentFlowDemo from './assets/projects/paymentFlowDemo.png'
 
 export const languageLogos = [
     // Main Programming Languages & Frameworks
@@ -72,6 +74,7 @@ export const languageLogos = [
     { src: tailwindLogo, alt: 'Tailwind', link: 'https://tailwindcss.com/' },
     { src: bootStrapLogo, alt: 'BootStrap', link: 'https://getbootstrap.com/' },
     { src: chakraUI, alt: 'Chakra UI', link: 'https://chakra-ui.com/' },
+    { src: MUILogo, alt: 'Material MUI', link: 'https://mui.com/' },
 
     // Databases & Related Technologies
     { src: mongoDBLogo, alt: 'MongoDB', link: 'https://www.mongodb.com/' },
@@ -102,6 +105,15 @@ export const certifications = [
 ];
 
 export const projects = [
+    {
+        title: 'Payment Flow Demo',
+        projectImage: paymentFlowDemo,
+        backendIcon: nodeLogo,
+        frontendRepo: 'https://github.com/RobertFacundo/paymentFlowDemoF',
+        backendRepo: 'https://github.com/RobertFacundo/paymentFlowDemoB',
+        deployedUrl: 'https://paymentflowdemob.onrender.com/',
+        styleIcon: MUILogo,
+    },
     {
         title: 'MERN Ecommerce',
         projectImage: ecommerceMERN,
