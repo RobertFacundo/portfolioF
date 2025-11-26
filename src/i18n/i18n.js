@@ -39,7 +39,7 @@ const resources = {
             "certifications_link": "Certificaciones",
             "technical_challenges": "Desafios Técnicos",
             "about_title": "Full-Stack Web Developer",
-            "first_paragraph": "Soy un <highlight>desarrollador web full-stack</highlight> con base en Argentina. Mi inglés de nivel profesional y mi entendimiento del entorno de trabajo internacional se perfeccionaron durante mi tiempo en la industria hotelera de EE. UU. Al regresar a la Argentina transicioné de carrera, y durante los últimos <highlight>dos años</highlight>, me he dedicado a estudiar y construir aplicaciones modernas.",
+            "first_paragraph": "Soy un <highlight>desarrollador web full-stack</highlight> con base en Argentina. Mi inglés de nivel profesional y mi entendimiento del entorno de trabajo internacional se perfeccionaron durante mi tiempo en la industria hotelera de EE. UU. Al regresar a la Argentina transicioné de carrera, y durante los últimos <highlight>dos años</highlight>, he dedicado mi tiempo y mi esfuerzo al estudio de la programación.",
             "second_paragraph": "Con una sólida base en <highlight>React</highlight>, me apasiona crear interfaces de usuario dinámicas y responsivas. He construido un sólido portafolio de proyectos personales usando diversas tecnologías de back-end, incluyendo <highlight>Node.js con Express, Nest.js, Python, y Ruby on Rails</highlight>. Esta experiencia práctica me ha dado un conocimiento integral de diferentes patrones arquitectónicos y lenguajes.",
             "third_paragraph": "Actualmente busco mi primer rol profesional en la industria de TI, y mi ética de trabajo se refleja mejor en mi portfolio. Mis <highlight>proyectos personales</highlight> están documentados y estructurados profesionalmente, lo que demuestra mi compromiso con el código limpio y las prácticas de desarrollo efectivas.",
             "last_paragraph": "Estoy ansioso por aportar mi <highlight>pasión y habilidades</highlight> a un equipo donde pueda crecer como desarrollador.",
@@ -55,7 +55,7 @@ const resources = {
 
 
             "challenge_coalition_test_title": "Panel de Control de Pacientes",
-            "challenge_coalition_test_date": "Octubre 2023",
+            "challenge_coalition_test_date": "Octubre 2025",
             "challenge_coalition_test_description": "Panel de control responsivo y con fidelidad pixel-perfect desarrollado en React. Replica un diseño detallado de visualización de datos médicos de pacientes, incluyendo la integración de Recharts para el historial de diagnóstico y arquitectura modular."
         }
     }

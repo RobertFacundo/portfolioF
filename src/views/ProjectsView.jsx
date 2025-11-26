@@ -29,7 +29,7 @@ const ProjectsView = () => {
 
     return (
         <StyledProjectsContainer>
-            <p className="disclaimer-container">
+            <div className="disclaimer-container">
                 <p className="disclaimer-left">
                     <Trans
                         i18nKey="disclaimer_left"
@@ -45,7 +45,7 @@ const ProjectsView = () => {
                         components={{ highlight: <StyledHighlight /> }}
                     />
                 </p>
-            </p>
+            </div>
             {
                 projects.map((project, index) => {
                     return (
