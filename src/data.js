@@ -28,7 +28,9 @@ import redux from './assets/programmingLanguages/redux.png';
 import stripe from './assets/programmingLanguages/stripe.svg';
 import mercadoPago from './assets/programmingLanguages/mercadoPago.png';
 import MUILogo from './assets/programmingLanguages/MUI.png';
-import reactQuery from './assets/programmingLanguages/reactQuery.webp'
+import reactQuery from './assets/programmingLanguages/reactQuery.webp';
+import jestLogo from './assets/programmingLanguages/jest.png';
+import rtlLogo from './assets/programmingLanguages/rtl.png';
 
 import backEndI from './assets/certifications/BackEnd1.png';
 import backEnd2 from './assets/certifications/BackEnd2.png';
@@ -56,44 +58,44 @@ import paymentFlowDemo from './assets/projects/paymentFlowDemo.png'
 import sushiEcommerce from './assets/projects/sushiEcommerce.png'
 
 export const languageLogos = [
-    // Main Programming Languages & Frameworks
-    { src: html5Logo, alt: 'HTML5', link: 'https://html.spec.whatwg.org/' },
-    { src: cssLogo, alt: 'CSS', link: 'https://www.w3.org/Style/CSS/' },
-    { src: jsLogo, alt: 'JavaScript', link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript' },
-    { src: nodeLogo, alt: 'NodeJS', link: 'https://nodejs.org/' },
-    { src: reactLogo, alt: 'React', link: 'https://reactjs.org/' },
-    { src: reactQuery, alt: 'React Query', link: 'https://tanstack.com/' },
-    { src: redux, alt: 'ReduxJS', link: 'https://redux.js.org/' },
-    { src: typeScriptLogo, alt: 'TypeScript', link: 'https://www.typescriptlang.org/' },
-    { src: nextLogo, alt: 'Next.js', link: 'https://nextjs.org/' },
-    { src: nestLogo, alt: 'Nest', link: 'https://nestjs.com/' },
-    { src: pythonLogo, alt: 'Python', link: 'https://www.python.org/' },
-    { src: djangoLogo, alt: 'Django', link: 'https://www.djangoproject.com/' },
-    { src: rubyLogo, alt: 'Ruby', link: 'https://www.ruby-lang.org/' },
-    { src: rubyOnRailsLogo, alt: 'Ruby on Rails', link: 'https://rubyonrails.org/' },
+  // ================= CORE STACK =================
+  { src: jsLogo, alt: 'JavaScript', link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript', category: 'core' },
+  { src: reactLogo, alt: 'React', link: 'https://reactjs.org/', category: 'core' },
+  { src: nodeLogo, alt: 'NodeJS', link: 'https://nodejs.org/', category: 'core' },
+  { src: redux, alt: 'ReduxJS', link: 'https://redux.js.org/', category: 'core' },
+  { src: reactQuery, alt: 'React Query', link: 'https://tanstack.com/', category: 'core' },
+  { src: tailwindLogo, alt: 'Tailwind', link: 'https://tailwindcss.com/', category: 'core' },
+  { src: mongoDBLogo, alt: 'MongoDB', link: 'https://www.mongodb.com/', category: 'core' },
+  { src: mongooseLogo, alt: 'Mongoose', link: 'https://mongoosejs.com/', category: 'core' },
+  { src: postmanLogo, alt: 'Postman', link: 'https://www.postman.com/', category: 'core' },
 
-    // Styling Libraries
-    { src: sassLogo, alt: 'Sass', link: 'https://sass-lang.com/' },
-    { src: tailwindLogo, alt: 'Tailwind', link: 'https://tailwindcss.com/' },
-    { src: bootStrapLogo, alt: 'BootStrap', link: 'https://getbootstrap.com/' },
-    { src: chakraUI, alt: 'Chakra UI', link: 'https://chakra-ui.com/' },
-    { src: MUILogo, alt: 'Material MUI', link: 'https://mui.com/' },
+  // ================= SECONDARY =================
+  { src: html5Logo, alt: 'HTML5', link: 'https://html.spec.whatwg.org/', category: 'secondary' },
+  { src: cssLogo, alt: 'CSS', link: 'https://www.w3.org/Style/CSS/', category: 'secondary' },
+  { src: typeScriptLogo, alt: 'TypeScript', link: 'https://www.typescriptlang.org/', category: 'secondary' },
+  { src: nextLogo, alt: 'Next.js', link: 'https://nextjs.org/', category: 'secondary' },
+  { src: nestLogo, alt: 'NestJS', link: 'https://nestjs.com/', category: 'secondary' },
+  { src: pythonLogo, alt: 'Python', link: 'https://www.python.org/', category: 'secondary' },
+  { src: djangoLogo, alt: 'Django', link: 'https://www.djangoproject.com/', category: 'secondary' },
+  { src: rubyLogo, alt: 'Ruby', link: 'https://www.ruby-lang.org/', category: 'secondary' },
+  { src: rubyOnRailsLogo, alt: 'Ruby on Rails', link: 'https://rubyonrails.org/', category: 'secondary' },
+  { src: jestLogo, alt: 'Jest', link: 'https://jestjs.io/', category: 'secondary' },
+  { src: rtlLogo, alt: 'React Testing Library', link: 'https://testing-library.com/', category: 'secondary' },
+  { src: sassLogo, alt: 'Sass', link: 'https://sass-lang.com/', category: 'secondary' },
+  { src: bootStrapLogo, alt: 'Bootstrap', link: 'https://getbootstrap.com/', category: 'secondary' },
+  { src: chakraUI, alt: 'Chakra UI', link: 'https://chakra-ui.com/', category: 'secondary' },
+  { src: MUILogo, alt: 'Material UI', link: 'https://mui.com/', category: 'secondary' },
+  { src: postgreSqlLogo, alt: 'PostgreSQL', link: 'https://www.postgresql.org/', category: 'secondary' },
+  { src: neonLogo, alt: 'Neon DB', link: 'https://neon.tech/', category: 'secondary' },
 
-    // Databases & Related Technologies
-    { src: mongoDBLogo, alt: 'MongoDB', link: 'https://www.mongodb.com/' },
-    { src: mongooseLogo, alt: 'Mongoose', link: 'https://mongoosejs.com/' },
-    { src: postgreSqlLogo, alt: 'PostgresSQL', link: 'https://www.postgresql.org/' },
-    { src: neonLogo, alt: 'Neon DB', link: 'https://neon.tech/' },
-
-    // Tools & Platforms
-    { src: stripe, alt: 'Stripe', link: 'https://stripe.com/es-us' },
-    { src: mercadoPago, alt: 'Mercado Pago', link: 'https://www.mercadopago.com.ar/developers/es' },
-    { src: gitLogo, alt: 'Git', link: 'https://git-scm.com/' },
-    { src: npmLogo, alt: 'NPM', link: 'https://www.npmjs.com/' },
-    { src: dockerLogo, alt: 'Docker', link: 'https://www.docker.com/' },
-    { src: viteLogo, alt: 'Vite', link: 'https://vitejs.dev/' },
-    { src: postmanLogo, alt: 'PostMan', link: 'https://www.postman.com/' },
-    { src: powerShellLogo, alt: 'PowerShell', link: 'https://docs.microsoft.com/en-us/powershell/' },
+  // ================= TOOLS & PLATFORMS =================
+  { src: gitLogo, alt: 'Git', link: 'https://git-scm.com/', category: 'tools' },
+  { src: npmLogo, alt: 'NPM', link: 'https://www.npmjs.com/', category: 'tools' },
+  { src: dockerLogo, alt: 'Docker', link: 'https://www.docker.com/', category: 'tools' },
+  { src: viteLogo, alt: 'Vite', link: 'https://vitejs.dev/', category: 'tools' },
+  { src: stripe, alt: 'Stripe', link: 'https://stripe.com/', category: 'tools' },
+  { src: mercadoPago, alt: 'Mercado Pago', link: 'https://www.mercadopago.com.ar/developers/es', category: 'tools' },
+  { src: powerShellLogo, alt: 'PowerShell', link: 'https://docs.microsoft.com/en-us/powershell/', category: 'tools' },
 ];
 
 export const certifications = [

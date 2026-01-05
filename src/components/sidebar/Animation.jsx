@@ -8,16 +8,17 @@ const Animation = () => {
         <StyledAnimationContainer>
             {languageLogos.map((logo, index) => (
                 <StyledLogoLink
-                 index={index}
-                 key={logo.src}
-                 target="_blank"
-                 rel="noopener noreferree"
-                 href={logo.link}
+                    index={index}
+                    key={logo.src}
+                    category={logo.category}
+                    target="_blank"
+                    rel="noopener noreferree"
+                    href={logo.link}
                 >
-                        <StyledLogoImage
-                        
+                    <StyledLogoImage
                         src={logo.src}
                         alt={logo.alt}
+                        category={logo.category}
                     />
                 </StyledLogoLink>
             ))}

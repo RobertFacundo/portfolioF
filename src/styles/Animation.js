@@ -51,23 +51,38 @@ export const StyledAnimationContainer = styled.div`
 `;
 
 export const StyledLogoLink = styled.a`
-    width: 65px;
-    height: auto;
-    opacity: 0;
-    transition: transform 0.3s ease-in-out;
+     width: ${({ category }) => {
+        if (category === 'core') return '72px';
+        if (category === 'tools') return '35px';
+        return '52px';
+    }};
+  height: auto;
 
-    animation: ${slideIn} 0.6s ease-out forwards;
-    animation-delay: ${({ index }) => index * 0.3}s;
+  opacity: ${({ category }) => {
+        if (category === 'core') return 1;
+        if (category === 'tools') return 0.7;
+        return 0.85;
+    }};
 
-    &:hover {
-        transform: scale(1.2);
-    }
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+
+  animation: ${slideIn} 0.6s ease-out forwards;
+  animation-delay: ${({ index }) => index * 0.3}s;
+
+  &:hover {
+    transform: ${({ category }) => {
+        if (category === 'core') return 'scale(1.25)';
+        if (category === 'tools') return 'scale(1.1)';
+        return 'scale(1.15)';
+    }};
+    opacity: 1;
+  }
 `
 
 export const StyledLogoImage = styled.img.attrs(props => ({
-    title: props.alt,
+  title: `${props.alt} ${props.category === 'core' ? '- Core stack' : ''}`,
 }))`
-    width: 100%;
-    height: auto;
-`
+  width: 100%;
+  height: auto;
+`;
 
