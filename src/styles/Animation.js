@@ -52,9 +52,9 @@ export const StyledAnimationContainer = styled.div`
 
 export const StyledLogoLink = styled.a`
      width: ${({ category }) => {
-        if (category === 'core') return '72px';
+        if (category === 'core') return '80px';
         if (category === 'tools') return '35px';
-        return '52px';
+        return '60px';
     }};
   height: auto;
 
@@ -72,7 +72,7 @@ export const StyledLogoLink = styled.a`
   &:hover {
     transform: ${({ category }) => {
         if (category === 'core') return 'scale(1.25)';
-        if (category === 'tools') return 'scale(1.1)';
+        if (category === 'secondary') return 'scale(1.1)';
         return 'scale(1.15)';
     }};
     opacity: 1;
