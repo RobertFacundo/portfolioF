@@ -53,8 +53,8 @@ export const StyledAnimationContainer = styled.div`
 export const StyledLogoLink = styled.a`
      width: ${({ category }) => {
         if (category === 'core') return '80px';
-        if (category === 'tools') return '35px';
-        return '60px';
+        if (category === 'tools') return '30px';
+        return '50px';
     }};
   height: auto;
 

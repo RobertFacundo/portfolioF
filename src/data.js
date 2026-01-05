@@ -31,6 +31,7 @@ import MUILogo from './assets/programmingLanguages/MUI.png';
 import reactQuery from './assets/programmingLanguages/reactQuery.webp';
 import jestLogo from './assets/programmingLanguages/jest.png';
 import rtlLogo from './assets/programmingLanguages/rtl.png';
+import vitest from './assets/programmingLanguages/vitest.svg'
 
 import backEndI from './assets/certifications/BackEnd1.png';
 import backEnd2 from './assets/certifications/BackEnd2.png';
@@ -79,6 +80,7 @@ export const languageLogos = [
   { src: djangoLogo, alt: 'Django', link: 'https://www.djangoproject.com/', category: 'secondary' },
   { src: rubyLogo, alt: 'Ruby', link: 'https://www.ruby-lang.org/', category: 'secondary' },
   { src: rubyOnRailsLogo, alt: 'Ruby on Rails', link: 'https://rubyonrails.org/', category: 'secondary' },
+  { src: vitest, alt: 'Vitest', link: 'https://vitest.dev/', category: 'secondary' },
   { src: jestLogo, alt: 'Jest', link: 'https://jestjs.io/', category: 'secondary' },
   { src: rtlLogo, alt: 'React Testing Library', link: 'https://testing-library.com/', category: 'secondary' },
   { src: sassLogo, alt: 'Sass', link: 'https://sass-lang.com/', category: 'secondary' },
