@@ -20,8 +20,8 @@ export const StyledAnimationContainer = styled.div`
    width: 100%;
    cursor: pointer;
    /* border-right: 2px solid rgba(255, 255, 255, 0.2); */
-   border-bottom: 2px solid rgba(0, 255, 65, 0.2);;
-   border-top: 2px solid rgba(0, 255, 65, 0.2);;
+   border-bottom: 1px solid rgba(0, 255, 65, 0.1);;
+   border-top: 1px solid rgba(0, 255, 65, 0.2);;
 
    @media (max-width: 768px){
      padding: 5px 8px;
@@ -51,7 +51,7 @@ export const StyledAnimationContainer = styled.div`
 `;
 
 export const StyledLogoLink = styled.a`
-    width: 70px;
+    width: 65px;
     height: auto;
     opacity: 0;
     transition: transform 0.3s ease-in-out;

@@ -27,7 +27,8 @@ import chakraUI from './assets/programmingLanguages/chakra-ui.png';
 import redux from './assets/programmingLanguages/redux.png';
 import stripe from './assets/programmingLanguages/stripe.svg';
 import mercadoPago from './assets/programmingLanguages/mercadoPago.png';
-import MUILogo from './assets/programmingLanguages/MUI.png'
+import MUILogo from './assets/programmingLanguages/MUI.png';
+import reactQuery from './assets/programmingLanguages/reactQuery.webp'
 
 import backEndI from './assets/certifications/BackEnd1.png';
 import backEnd2 from './assets/certifications/BackEnd2.png';
@@ -52,6 +53,7 @@ import coalitionTest from './assets/projects/coalitionTest.png';
 import recipeApp from './assets/projects/recipeApp.png';
 import ecommerceMERN from './assets/projects/EcommerceMERN.png'
 import paymentFlowDemo from './assets/projects/paymentFlowDemo.png'
+import sushiEcommerce from './assets/projects/sushiEcommerce.png'
 
 export const languageLogos = [
     // Main Programming Languages & Frameworks
@@ -60,6 +62,7 @@ export const languageLogos = [
     { src: jsLogo, alt: 'JavaScript', link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript' },
     { src: nodeLogo, alt: 'NodeJS', link: 'https://nodejs.org/' },
     { src: reactLogo, alt: 'React', link: 'https://reactjs.org/' },
+    { src: reactQuery, alt: 'React Query', link: 'https://tanstack.com/' },
     { src: redux, alt: 'ReduxJS', link: 'https://redux.js.org/' },
     { src: typeScriptLogo, alt: 'TypeScript', link: 'https://www.typescriptlang.org/' },
     { src: nextLogo, alt: 'Next.js', link: 'https://nextjs.org/' },
@@ -105,6 +108,15 @@ export const certifications = [
 ];
 
 export const projects = [
+    {
+        title: 'Professional Ecommerce',
+        projectImage: sushiEcommerce,
+        backendIcon: nodeLogo,
+        frontendRepo: 'https://github.com/RobertFacundo/sushiEcommerceF',
+        backendRepo: 'https://github.com/RobertFacundo/sushiEcommerceB',
+        deployedUrl: 'https://sushiecommerceb.onrender.com/',
+        styleIcon: tailwindLogo,
+    },
     {
         title: 'Payment Flow Demo',
         projectImage: paymentFlowDemo,
