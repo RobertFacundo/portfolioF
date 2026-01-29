@@ -57,6 +57,7 @@ import recipeApp from './assets/projects/recipeApp.png';
 import ecommerceMERN from './assets/projects/EcommerceMERN.png'
 import paymentFlowDemo from './assets/projects/paymentFlowDemo.png'
 import sushiEcommerce from './assets/projects/sushiEcommerce.png'
+import musicApp from './assets/projects/musicApp.png'
 
 export const languageLogos = [
   // ================= CORE STACK =================
@@ -112,6 +113,15 @@ export const certifications = [
 ];
 
 export const projects = [
+    {
+        title: 'Music App',
+        projectImage: musicApp,
+        backendIcon: nodeLogo,
+        frontendRepo: 'https://github.com/RobertFacundo/musicAppFrontend',
+        backendRepo: 'https://github.com/RobertFacundo/musicAppBackend',
+        deployedUrl: 'https://musicappbackend-ccph.onrender.com/',
+        styleIcon: tailwindLogo,
+    },
     {
         title: 'Professional Ecommerce',
         projectImage: sushiEcommerce,
