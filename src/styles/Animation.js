@@ -1,16 +1,7 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
+import { motion } from "framer-motion";
 
-const slideIn = keyframes`
-    from {
-        opacity: 0;
-        transform: translateY(-50px);
-    }to{
-        opacity: 1;
-        transform: translateY(0);
-    }
-`;
-
-export const StyledAnimationContainer = styled.div`
+export const StyledAnimationContainer = styled(motion.div)`
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
@@ -50,10 +41,10 @@ export const StyledAnimationContainer = styled.div`
    }
 `;
 
-export const StyledLogoLink = styled.a`
+export const StyledLogoLink = styled(motion.a)`
      width: ${({ category }) => {
         if (category === 'core') return '80px';
-        if (category === 'tools') return '29px';
+        if (category === 'tools') return '38px';
         return '46px';
     }};
   height: auto;
@@ -66,8 +57,6 @@ export const StyledLogoLink = styled.a`
 
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 
-  animation: ${slideIn} 0.6s ease-out forwards;
-  animation-delay: ${({ index }) => index * 0.3}s;
 
   &:hover {
     transform: ${({ category }) => {
@@ -79,7 +68,7 @@ export const StyledLogoLink = styled.a`
   }
 `
 
-export const StyledLogoImage = styled.img.attrs(props => ({
+export const StyledLogoImage = styled(motion.img).attrs(props => ({
   title: `${props.alt} ${props.category === 'core' ? '- Core stack' : ''}`,
 }))`
   width: 100%;
