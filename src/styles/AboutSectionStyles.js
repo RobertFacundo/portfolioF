@@ -22,11 +22,12 @@ export const StyledAboutSection = styled.div`
         padding-top: 1rem;
         padding-right: 1rem;
         line-height: 1.9rem;
-        text-indent: 0.6rem;
-        font-family: 'VT323', monospace;
-        font-size: 1.4rem; 
-        letter-spacing: 1px;
+        text-indent: 0.3rem;
+        font-family: 'Oxanium', sans-serif;
+        font-size: 1.1rem; 
+        letter-spacing: 1;
         text-align: left;
+        font-weight: 300;
 
         @media (max-width: 768px){
             font-size: 1.2rem;

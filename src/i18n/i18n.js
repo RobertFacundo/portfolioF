@@ -11,25 +11,25 @@ const resources = {
             "certifications_link": "Certifications",
             "technical_challenges": "Technical Challenges",
             "about_title": "Full-Stack Web Developer",
-            "first_paragraph": "I'm a <highlight>full-stack web developer</highlight> based in Argentina. My professional-level English and understanding of the international work environment were honed during my time in the US hospitality industry. After recognizing my <highlight>passion</highlight> for building and creating digital solutions I made the career transition to programming, and over the past  <highlight>2 years</highlight> I have dedicated myself to studying and building modern applications, focusing on delivering clean, scalable, and efficient code.",
-            "second_paragraph": "With a strong foundation in <highlight>React</highlight>, I'm passionate about creating dynamic and responsive user interfaces. I've built a robust portfolio of personal projects using diverse backend technologies, including <highlight>Node.js with Express, Nest.js, Python, and Ruby on Rails</highlight>. This practical experience has given me a comprehensive grasp of different architectural patterns and languages.",
-            "third_paragraph": "I am currently seeking my first professional role in the IT industry, and my work ethic is best showcased through my portfolio. My <highlight>personal projects</highlight> are professionally documented and structured, demonstrating a commitment to clean code and effective development practices.",
-            "last_paragraph": "I am eager to contribute my <highlight>passion and skills</highlight> to a team and grow as a developer.",
-            "disclaimer":  "Clicking the <highlight>project title</highlight> will open the deployed URL.<br/>Clicking the <highlight>Backend icon</highlight> or the <highlight>Frontend GitHub icon</highlight> will open their respective repositories.<br/>Please note that the backends for these projects, deployed on <highlight>Render</highlight>, may experience a <highlight>cold start</highlight> on the first visit, causing a brief delay.",
+            "first_paragraph": "I am a <highlight>full-stack web developer</highlight> from Argentina, with <highlight>professional-level English</highlight> (gained through international experience in the U.S. hospitality industry). Over the past <highlight>two years</highlight>, I have fully dedicated myself to programming and developing personal projects, solidifying my career transition.",
+            "second_paragraph": "I have strong experience in <highlight>React</highlight> and back-end development with <highlight>Node.js and Express</highlight>. My hands-on projects have allowed me to understand different architectural patterns and work with multiple technologies, creating dynamic interfaces and robust systems.",
+            "third_paragraph": "I am seeking my <highlight>first professional role in IT</highlight>, bringing my commitment to <highlight>clean code and best practices</highlight>. My personal projects are professionally documented and organized, demonstrating responsibility and work ethic.",
+            "last_paragraph": "I am ready to contribute my <highlight>passion and skills</highlight> to a team where I can grow and continue learning as a developer.",
+            "disclaimer": "Clicking the <highlight>project title</highlight> will open the deployed URL.<br/>Clicking the <highlight>Backend icon</highlight> or the <highlight>Frontend GitHub icon</highlight> will open their respective repositories.<br/>Please note that the backends for these projects, deployed on <highlight>Render</highlight>, may experience a <highlight>cold start</highlight> on the first visit, causing a brief delay.",
             "disclaimer_left": "Every project was made with a <1></1> Front-End deployed on <2>Vercel</2>. ",
             "disclaimer_star": "<highlight>⭐</highlight> Projects have professional architecture and are production-ready.",
 
             "total_coding_time_title": "Total Coding Time",
-            "last_updated_label": "Last Monthly Updated:",
+            "last_updated_label": "Last Monthly Updated",
 
             "challenge_seat_map_title": "Seat Map Builder",
             "challenge_seat_map_date": "September 2025",
             "challenge_seat_map_description": "Developed as a technical challenge to showcase advanced front-end skills and state management. Built using React with Next.js, this interactive tool allows users to design and label dynamic seat maps from scratch. Key features include an advanced Drag and Drop system for reordering rows, batch labeling for mass numbering, and robust JSON import/export with schema validation for map persistence.",
-           
+
             "challenge_coalition_test_title": "Patient Dashboard",
             "challenge_coalition_test_date": "October 2023",
             "challenge_coalition_test_description": "A pixel-perfect, responsive React dashboard replicating a detailed medical patient data visualization design (Figma/Adobe XD). Features include Recharts integration for diagnostic history and modular component architecture."
-        
+
         }
     },
     es: {
@@ -40,16 +40,16 @@ const resources = {
             "certifications_link": "Certificaciones",
             "technical_challenges": "Desafios Técnicos",
             "about_title": "Full-Stack Web Developer",
-            "first_paragraph": "Soy un <highlight>desarrollador web full-stack</highlight> con base en Argentina. Mi inglés de nivel profesional y mi entendimiento del entorno de trabajo internacional se perfeccionaron durante mi tiempo en la industria hotelera de EE. UU. Al regresar a la Argentina transicioné de carrera, y durante los últimos <highlight>dos años</highlight>, he dedicado mi tiempo y mi esfuerzo al estudio de la programación.",
-            "second_paragraph": "Con una sólida base en <highlight>React</highlight>, me apasiona crear interfaces de usuario dinámicas y responsivas. He construido un sólido portafolio de proyectos personales usando diversas tecnologías de back-end, incluyendo <highlight>Node.js con Express, Nest.js, Python, y Ruby on Rails</highlight>. Esta experiencia práctica me ha dado un conocimiento integral de diferentes patrones arquitectónicos y lenguajes.",
-            "third_paragraph": "Actualmente busco mi primer rol profesional en la industria de TI, y mi ética de trabajo se refleja mejor en mi portfolio. Mis <highlight>proyectos personales</highlight> están documentados y estructurados profesionalmente, lo que demuestra mi compromiso con el código limpio y las prácticas de desarrollo efectivas.",
-            "last_paragraph": "Estoy ansioso por aportar mi <highlight>pasión y habilidades</highlight> a un equipo donde pueda crecer como desarrollador.",
+            "first_paragraph": "Soy un <highlight>desarrollador web full-stack</highlight> de Argentina, con <highlight>nivel de inglés profesional</highlight> (experiencia internacional adquirida en la industria hotelera de EE. UU). En los últimos <highlight>dos años</highlight>, me he dedicado de lleno a la programación y al desarrollo de proyectos propios, consolidando mi transición de carrera.",
+            "second_paragraph": "Tengo experiencia sólida en <highlight>React</highlight> y en back-end con <highlight>Node.js, Express</highlight>. Mis proyectos prácticos me han permitido comprender diferentes patrones arquitectónicos y trabajar con múltiples tecnologías, creando interfaces dinámicas y sistemas robustos.",
+            "third_paragraph": "Busco mi <highlight>primer rol profesional en TI</highlight>, aportando mi compromiso con el <highlight>código limpio y buenas prácticas</highlight>. Mis proyectos personales están documentados y organizados profesionalmente, demostrando responsabilidad y ética de trabajo.",
+            "last_paragraph": "Estoy listo para aportar mi <highlight>pasión y habilidades</highlight> a un equipo donde pueda crecer y aprender como desarrollador.",
             "disclaimer": "Al hacer clic en el <highlight>título del proyecto</highlight>, se abrirá la URL desplegada.<br/>Al hacer clic en el <highlight>icono del backend</highlight> o en el <highlight>icono de GitHub del frontend</highlight>, se abrirán sus respectivos repositorios.<br/>Los backends para estos proyectos, desplegados en <highlight>Render</highlight>, pueden experimentar un <highlight>arranque en frío</highlight> en la primera visita, lo que puede causar un breve delay.",
             "disclaimer_left": "Cada proyecto fue hecho con <1></1> Front-End desplegado en <2>Vercel</2>.",
             "disclaimer_star": "<highlight>⭐</highlight> Proyectos con arquitectura profesional y listos para producción.",
 
             "total_coding_time_title": "Tiempo total de Codigo",
-            "last_updated_label": "Última actualización mensual:",
+            "last_updated_label": "Última actualización mensual",
 
             "challenge_seat_map_title": "Constructor de Mapas de Asientos",
             "challenge_seat_map_date": "Septiembre de 2025",

@@ -56,10 +56,12 @@ const CodingTime = () => {
 
     return (
         <CodingTimeContainer>
-            <Label>{t("total_coding_time_title")}</Label>
-            <TimeDisplay ref={timeRef}>
-                {formatTime(0)}
-            </TimeDisplay>
+            <div>
+                <Label>{t("total_coding_time_title")}</Label>
+                <TimeDisplay ref={timeRef}>
+                    {formatTime(0)}
+                </TimeDisplay>
+            </div>
             <UpdateInfo>
                 {t("last_updated_label")}
                 <br />

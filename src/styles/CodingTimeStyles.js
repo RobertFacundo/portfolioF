@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const CodingTimeContainer = styled.div`
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: left;
-    width: 170px;
+    width: 300px;
     padding-left: 20px;
     font-family: 'Oxanium', sans-serif; 
 
@@ -25,6 +25,7 @@ export const Label = styled.p`
     letter-spacing: 1.3px;
     margin-bottom: 4px;
     font-weight: 600;
+    border-bottom: 2px solid rgba(0, 255, 65, 0.18);
 `;
 
 export const TimeDisplay = styled.p`
@@ -36,9 +37,10 @@ export const TimeDisplay = styled.p`
 `;
 
 export const UpdateInfo = styled.p`
-    text-align: left;
+    text-align: center;
+    padding-left: 1rem;
     letter-spacing: 1px;
     font-size: 0.7rem;
     color: rgba(255, 255, 255, 0.6);
-    margin-top: 4px;
+    margin-top: 0px;
 `;
