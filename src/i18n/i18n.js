@@ -16,10 +16,11 @@ const resources = {
             "third_paragraph": "I am currently seeking my first professional role in the IT industry, and my work ethic is best showcased through my portfolio. My <highlight>personal projects</highlight> are professionally documented and structured, demonstrating a commitment to clean code and effective development practices.",
             "last_paragraph": "I am eager to contribute my <highlight>passion and skills</highlight> to a team and grow as a developer.",
             "disclaimer":  "Clicking the <highlight>project title</highlight> will open the deployed URL.<br/>Clicking the <highlight>Backend icon</highlight> or the <highlight>Frontend GitHub icon</highlight> will open their respective repositories.<br/>Please note that the backends for these projects, deployed on <highlight>Render</highlight>, may experience a <highlight>cold start</highlight> on the first visit, causing a brief delay.",
-            "disclaimer_left": "Every project was made with a <1></1> Front-End deployed on <2>Vercel</2>.",
+            "disclaimer_left": "Every project was made with a <1></1> Front-End deployed on <2>Vercel</2>. ",
+            "disclaimer_star": "<highlight>⭐</highlight> Projects have professional architecture and are production-ready.",
 
             "total_coding_time_title": "Total Coding Time",
-            "last_updated_label": "Last Updated:",
+            "last_updated_label": "Last Monthly Updated:",
 
             "challenge_seat_map_title": "Seat Map Builder",
             "challenge_seat_map_date": "September 2025",
@@ -45,9 +46,10 @@ const resources = {
             "last_paragraph": "Estoy ansioso por aportar mi <highlight>pasión y habilidades</highlight> a un equipo donde pueda crecer como desarrollador.",
             "disclaimer": "Al hacer clic en el <highlight>título del proyecto</highlight>, se abrirá la URL desplegada.<br/>Al hacer clic en el <highlight>icono del backend</highlight> o en el <highlight>icono de GitHub del frontend</highlight>, se abrirán sus respectivos repositorios.<br/>Los backends para estos proyectos, desplegados en <highlight>Render</highlight>, pueden experimentar un <highlight>arranque en frío</highlight> en la primera visita, lo que puede causar un breve delay.",
             "disclaimer_left": "Cada proyecto fue hecho con <1></1> Front-End desplegado en <2>Vercel</2>.",
+            "disclaimer_star": "<highlight>⭐</highlight> Proyectos con arquitectura profesional y listos para producción.",
 
             "total_coding_time_title": "Tiempo total de Codigo",
-            "last_updated_label": "Última actualización:",
+            "last_updated_label": "Última actualización mensual:",
 
             "challenge_seat_map_title": "Constructor de Mapas de Asientos",
             "challenge_seat_map_date": "Septiembre de 2025",

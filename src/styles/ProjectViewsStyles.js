@@ -30,18 +30,23 @@ export const StyledProjectsContainer = styled.div`
         padding-top: 1rem;
         padding-bottom: 1rem;
 
-        .disclaimer-left {
-            text-align: left;
 
-            .tech-logo {
-              height: 5em; // Sets the height of the logo to match the font size
-              width: auto; // Maintains the logo's aspect ratio
-              vertical-align: middle; // Aligns the logo vertically with the text
+        .disclaimer-left-container{
+            display: flex;
+            flex-direction: column;
+            .disclaimer-left {
+                text-align: left;
+                .tech-logo {
+                  height: 5em; // Sets the height of the logo to match the font size
+                  width: auto; // Maintains the logo's aspect ratio
+                  vertical-align: middle; // Aligns the logo vertically with the text
+                }
+    
+                a{
+                    color: #00FF41;
+                }
             }
-
-            a{
-                color: #00FF41;
-            }
+            
         }
         .disclaimer-right{
             text-align: right;

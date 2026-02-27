@@ -57,7 +57,8 @@ import recipeApp from './assets/projects/recipeApp.png';
 import ecommerceMERN from './assets/projects/EcommerceMERN.png'
 import paymentFlowDemo from './assets/projects/paymentFlowDemo.png'
 import sushiEcommerce from './assets/projects/sushiEcommerce.png'
-import musicApp from './assets/projects/musicApp.png'
+import musicApp from './assets/projects/musicApp.png';
+import gymEcommerce from './assets/projects/gymEcommerce.png'
 
 export const languageLogos = [
   // ================= CORE STACK =================
@@ -112,7 +113,16 @@ export const certifications = [
     { src: webDevelopment, alt: 'Web development; HTML5, CSS3' }
 ];
 
-export const projects = [
+export const projects = [ {
+        title: 'Gym Ecommerce',
+        projectImage: gymEcommerce,
+        backendIcon: nodeLogo,
+        frontendRepo: 'https://github.com/RobertFacundo/gymEcommerceF',
+        backendRepo: 'https://github.com/RobertFacundo/gymEcommerceB',
+        deployedUrl: 'https://gymecommerceb.onrender.com/',
+        styleIcon: tailwindLogo,
+        star:true
+    },
     {
         title: 'Music App',
         projectImage: musicApp,
@@ -121,6 +131,7 @@ export const projects = [
         backendRepo: 'https://github.com/RobertFacundo/musicAppBackend',
         deployedUrl: 'https://musicappbackend-ccph.onrender.com/',
         styleIcon: tailwindLogo,
+        star:true
     },
     {
         title: 'Professional Ecommerce',
@@ -130,6 +141,7 @@ export const projects = [
         backendRepo: 'https://github.com/RobertFacundo/sushiEcommerceB',
         deployedUrl: 'https://sushiecommerceb.onrender.com/',
         styleIcon: tailwindLogo,
+        star:true
     },
     {
         title: 'Payment Flow Demo',

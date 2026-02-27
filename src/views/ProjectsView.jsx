@@ -30,15 +30,23 @@ const ProjectsView = () => {
     return (
         <StyledProjectsContainer>
             <div className="disclaimer-container">
-                <p className="disclaimer-left">
-                    <Trans
-                        i18nKey="disclaimer_left"
-                        components={{
-                            1: <img src={reactLogo} alt="React front end" className="tech-logo" />,
-                            2: <a href="https://vercel.com/robertfacundos-projects" target="_blank" rel="noopener noreferrer"></a>
-                        }}
-                    />
-                </p>
+                <div className="disclaimer-left-container">
+                    <p className="disclaimer-left">
+                        <Trans
+                            i18nKey="disclaimer_left"
+                            components={{
+                                1: <img src={reactLogo} alt="React front end" className="tech-logo" />,
+                                2: <a href="https://vercel.com/robertfacundos-projects" target="_blank" rel="noopener noreferrer"></a>
+                            }}
+                        />
+                    </p>
+                    <p className="disclaimer-star">
+                        <Trans
+                            i18nKey="disclaimer_star"
+                            components={{ highlight: <span /> }}
+                        />
+                    </p>
+                </div>
                 <p className="disclaimer-right">
                     <Trans
                         i18nKey="disclaimer"
@@ -51,7 +59,13 @@ const ProjectsView = () => {
                     return (
                         <StyledProjectCard index={index} key={index} >
                             <div className="card-info">
-                                <h2 onClick={() => handleDeployedUrlClick(project)} style={{ cursor: 'pointer' }}>{project.title}</h2>
+                                <div>
+                                    <h2 onClick={() => handleDeployedUrlClick(project)} style={{ cursor: 'pointer' }}>
+                                        {project.title}
+                                        {project.star && <span style={{ marginLeft: '0.5rem' }}>⭐</span>}
+                                    </h2>
+
+                                </div>
                                 <div className="icons-container">
                                     <FaGithub onClick={() => handleFrontendRepoClick(project)} className="tech-icons" style={{ cursor: 'pointer' }} />
                                     {project.backendIcon && (
