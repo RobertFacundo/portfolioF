@@ -17,7 +17,7 @@ const resources = {
             "last_paragraph": "I am ready to contribute my <highlight>passion and skills</highlight> to a team where I can grow and continue learning as a developer.",
             "disclaimer": "Clicking the <highlight>project title</highlight> will open the deployed URL.<br/>Clicking the <highlight>Backend icon</highlight> or the <highlight>Frontend GitHub icon</highlight> will open their respective repositories.<br/>Please note that the backends for these projects, deployed on <highlight>Render</highlight>, may experience a <highlight>cold start</highlight> on the first visit, causing a brief delay.",
             "disclaimer_left": "Every project was made with a <1></1> Front-End deployed on <2>Vercel</2>. ",
-            "disclaimer_star": "<highlight>⭐</highlight>are production-ready projects with professional architecture.",
+            "disclaimer_star": "<highlight>⭐</highlight> Production-ready projects with professional architecture.",
 
             "total_coding_time_title": "Total Coding Time",
             "last_updated_label": "Last Monthly Updated",
