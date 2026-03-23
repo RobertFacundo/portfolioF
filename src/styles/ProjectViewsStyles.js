@@ -18,6 +18,7 @@ export const StyledProjectsContainer = styled.div`
     justify-content: center;
     gap: 1rem;
     border-top: 1px solid rgba(0, 255, 65, 0.1);
+    padding-bottom: 3rem;  
 
     .disclaimer-container {
         width: 100%;
@@ -52,6 +53,7 @@ export const StyledProjectsContainer = styled.div`
             text-align: right;
             padding-right: 1rem;
             max-width: 800px;
+            margin-top:27px;
         }
 
         @media (max-width: 768px){
@@ -93,6 +95,18 @@ export const StyledProjectCard = styled.div`
             transition: color 0.6s ease;
         }
 
+        .subtitle{
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.7);
+            font-family: 'VT323', monospace;
+            letter-spacing: 1px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+
+            overflow: hidden;
+        }
+
         .icons-container {
             display: flex;
             flex-direction: row;
@@ -103,6 +117,28 @@ export const StyledProjectCard = styled.div`
             width: 50px;
             height: 50px;
             object-fit: contain;
+        }
+    }
+    .links-container {
+        display: flex;
+        gap: 1.7rem;
+        justify-content: center;
+        margin-top: 0.5rem;
+        padding: 15px;
+
+        .project-link {
+            cursor: pointer;
+            color: #ffffff;
+            font-family: 'VT323', monospace;
+            letter-spacing: 0.5px;
+            font-size: 1.4rem;
+            font-weight: 300;
+            transition: 0.2s;
+        }
+
+        .project-link:hover {
+            color: #00FF41;
+            transform: scale(1.05);
         }
     }
 `;

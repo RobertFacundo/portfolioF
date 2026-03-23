@@ -121,7 +121,8 @@ export const projects = [ {
         backendRepo: 'https://github.com/RobertFacundo/gymEcommerceB',
         deployedUrl: 'https://gymecommerceb.onrender.com/',
         styleIcon: tailwindLogo,
-        star:true
+        star:true,
+        subtitle: "MERN • TypeScript • Redux • React Query • Stripe • JWT"
     },
     {
         title: 'Music App',
@@ -131,7 +132,8 @@ export const projects = [ {
         backendRepo: 'https://github.com/RobertFacundo/musicAppBackend',
         deployedUrl: 'https://musicappbackend-ccph.onrender.com/',
         styleIcon: tailwindLogo,
-        star:true
+        star:true,
+        subtitle:"MERN • TypeScript • Auth • Payments • Scalable Architecture "
     },
     {
         title: 'Professional Ecommerce',
@@ -141,7 +143,8 @@ export const projects = [ {
         backendRepo: 'https://github.com/RobertFacundo/sushiEcommerceB',
         deployedUrl: 'https://sushiecommerceb.onrender.com/',
         styleIcon: tailwindLogo,
-        star:true
+        star:true,
+        subtitle: "MERN • TypeScript • Redux Toolkit • React Query • JWT • Stripe"
     },
     {
         title: 'Payment Flow Demo',
@@ -151,6 +154,7 @@ export const projects = [ {
         backendRepo: 'https://github.com/RobertFacundo/paymentFlowDemoB',
         deployedUrl: 'https://paymentflowdemob.onrender.com/',
         styleIcon: MUILogo,
+        subtitle: "Node • Stripe • Paypal • JWT • Checkout • REST API "
     },
     {
         title: 'MERN Ecommerce',
@@ -160,6 +164,7 @@ export const projects = [ {
         backendRepo: 'https://github.com/RobertFacundo/professionalEcommerceB/',
         deployedUrl: 'https://professionalecommerceb.onrender.com/',
         styleIcon: chakraUI,
+        subtitle: "MERN • Redux Toolkit • Stripe • MercadoPago • Chakra UI"
     },
     {
         title: 'Recipe Hunter',
@@ -169,6 +174,7 @@ export const projects = [ {
         backendRepo: 'https://github.com/RobertFacundo/recipeAppB',
         deployedUrl: 'https://recipeappb.onrender.com/',
         styleIcon: tailwindLogo,
+        subtitle: "MERN • JWT Auth • API Integration • Favorites • Tailwind"
     },
     {
         title: 'Dream Journal',
@@ -178,6 +184,7 @@ export const projects = [ {
         backendRepo: 'https://github.com/RobertFacundo/dreamJournalB',
         deployedUrl: 'https://dreamjournalb.onrender.com/',
         styleIcon: sassLogo,
+        subtitle:"React • NestJS • PostgreSQL • JWT • TypeORM • SCSS"
     },
     {
         title: 'Digital Library',
@@ -187,6 +194,7 @@ export const projects = [ {
         backendRepo: 'https://github.com/RobertFacundo/digitalLibraryB',
         deployedUrl: 'https://digitallibraryb.onrender.com/',
         styleIcon: sassLogo,
+        subtitle:"React • Python • FastAPI • PostgreSQL • JWT • Framer Motion"
     },
     {
         title: 'Calories Tracker',
@@ -196,6 +204,7 @@ export const projects = [ {
         backendRepo: 'https://github.com/RobertFacundo/caloriesTrackerB',
         deployedUrl: 'https://caloriestrackerb.onrender.com/',
         styleIcon: cssLogo,
+        subtitle:"React • Rails • PostgreSQL • JWT • Chart.js • Styled Components"
     },
     {
         title: 'VideoGame Searcher',
@@ -205,6 +214,7 @@ export const projects = [ {
         backendRepo: '',
         deployedUrl: 'https://videogame-searcher.vercel.app/',
         styleIcon: sassLogo,
+        subtitle: "React • SCSS • Swiper • Autosuggest • Animations"
     },
     {
         title: 'History Web Site',
@@ -214,6 +224,7 @@ export const projects = [ {
         backendRepo: '',
         deployedUrl: 'https://history-web-site.vercel.app/',
         styleIcon: cssLogo,
+        subtitle: "React • i18next • Router • Markdown • Carousel • CSS"
     },
     {
         title: 'Art Gallery',
@@ -223,6 +234,7 @@ export const projects = [ {
         backendRepo: 'https://github.com/RobertFacundo/galleryArtB',
         deployedUrl: 'https://galleryartb.onrender.com/',
         styleIcon: tailwindLogo,
+        subtitle: "React • Rails • PostgreSQL • JWT • Tailwind • Quiz"
     },
     {
         title: 'E-commerce',
@@ -232,6 +244,7 @@ export const projects = [ {
         backendRepo: 'https://github.com/RobertFacundo/eCommerceB',
         deployedUrl: 'https://ecommerceb-tc17.onrender.com/',
         styleIcon: cssLogo,
+        subtitle: "React • Django • PostgreSQL • Auth • Cart • REST API"
     },
     {
         title: 'Photographic Portfolio',
@@ -241,6 +254,7 @@ export const projects = [ {
         backendRepo: '',
         deployedUrl: 'https://photography-portfolio-template-taupe.vercel.app/',
         styleIcon: sassLogo,
+         subtitle: "React • Router • SCSS • Masonry • Responsive • Components"
     },
     {
         title: 'Authentication',
@@ -250,6 +264,7 @@ export const projects = [ {
         backendRepo: 'https://github.com/RobertFacundo/authB',
         deployedUrl: 'https://authb.onrender.com/',
         styleIcon: cssLogo,
+        subtitle:"React • Router • NestJS • PostgreSQL • Auth • REST API"
     },
 ]
 

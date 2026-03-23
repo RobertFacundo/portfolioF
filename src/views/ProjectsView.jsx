@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { projects } from "../data";
 import { StyledProjectsContainer, StyledProjectCard, StyledHighlight } from '../styles/ProjectViewsStyles.js';
-import { FaGithub } from "react-icons/fa";
 import reactLogo from '../assets/programmingLanguages/react.png'
 import useAnalytics from "../hooks/useAnalytics.js";
 import { useTranslation, Trans } from "react-i18next";
@@ -40,18 +39,12 @@ const ProjectsView = () => {
                             }}
                         />
                     </p>
-                    <p className="disclaimer-star">
-                        <Trans
+                </div>
+                <p className="disclaimer-right">
+                     <Trans
                             i18nKey="disclaimer_star"
                             components={{ highlight: <span /> }}
                         />
-                    </p>
-                </div>
-                <p className="disclaimer-right">
-                    <Trans
-                        i18nKey="disclaimer"
-                        components={{ highlight: <StyledHighlight /> }}
-                    />
                 </p>
             </div>
             {
@@ -64,23 +57,40 @@ const ProjectsView = () => {
                                         {project.title}
                                         {project.star && <span style={{ marginLeft: '0.5rem' }}>⭐</span>}
                                     </h2>
-
-                                </div>
-                                <div className="icons-container">
-                                    <FaGithub onClick={() => handleFrontendRepoClick(project)} className="tech-icons" style={{ cursor: 'pointer' }} />
-                                    {project.backendIcon && (
-                                        <img
-                                            src={project.backendIcon}
-                                            alt={`${project.title} backend language`}
-                                            className="tech-icons"
-                                            onClick={() => handleBackendRepoClick(project)}
-                                            style={{ cursor: 'pointer' }}
-                                        />
-                                    )}
-                                    <img src={project.styleIcon} alt={`${project.title} styling library`} className="tech-icons" />
+                                    <p className="subtitle">{project.subtitle}</p>
                                 </div>
                             </div>
                             <img src={project.projectImage} alt={`${project.title} screenshot`} />
+
+                            <div className="links-container">
+
+                                {project.frontendRepo && (
+                                    <p
+                                        onClick={() => handleFrontendRepoClick(project)}
+                                        className="project-link"
+                                    >
+                                        Frontend Repo
+                                    </p>
+                                )}
+                                 {project.deployedUrl && (
+                                    <p
+                                        onClick={() => handleDeployedUrlClick(project)}
+                                        className="project-link"
+                                    >
+                                        Live Demo
+                                    </p>
+                                )}
+
+                                {project.backendRepo && (
+                                    <p
+                                        onClick={() => handleBackendRepoClick(project)}
+                                        className="project-link"
+                                    >
+                                        Backend Repo
+                                    </p>
+                                )}
+
+                            </div>
                         </StyledProjectCard>
                     )
                 })
