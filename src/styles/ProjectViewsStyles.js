@@ -1,15 +1,5 @@
 import styled, { keyframes } from "styled-components";
 
-const slideIn = keyframes`
-    from {
-        opacity: 0;
-        transform: translateY(-50px);
-    }to{
-        opacity: 1;
-        transform: translateY(0);
-    }
-`
-
 
 
 export const StyledProjectsContainer = styled.div`
@@ -17,7 +7,7 @@ export const StyledProjectsContainer = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-    border-top: 1px solid rgba(0, 255, 65, 0.1);
+    /* border-top: 1px solid rgba(0, 255, 65, 0.1); */
     padding-bottom: 3rem;  
 
     .disclaimer-container {
@@ -67,9 +57,6 @@ export const StyledProjectCard = styled.div`
     border-radius: 8px;
     overflow: hidden;
     transition: all 0.4s ease;
-
-    animation: ${slideIn} 2.6s ease-out forwards;
-    animation-delay: ${({ index }) => index * 0.4}s;
 
     &:hover {
         h2 {

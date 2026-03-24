@@ -61,45 +61,45 @@ import musicApp from './assets/projects/musicApp.png';
 import gymEcommerce from './assets/projects/gymEcommerce.png'
 
 export const languageLogos = [
-  // ================= CORE STACK =================
-  { src: jsLogo, alt: 'JavaScript', link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript', category: 'core' },
-  { src: reactLogo, alt: 'React', link: 'https://reactjs.org/', category: 'core' },
-  { src: nodeLogo, alt: 'NodeJS', link: 'https://nodejs.org/', category: 'core' },
-  { src: redux, alt: 'ReduxJS', link: 'https://redux.js.org/', category: 'core' },
-  { src: reactQuery, alt: 'React Query', link: 'https://tanstack.com/', category: 'core' },
-  { src: tailwindLogo, alt: 'Tailwind', link: 'https://tailwindcss.com/', category: 'core' },
-  { src: mongoDBLogo, alt: 'MongoDB', link: 'https://www.mongodb.com/', category: 'core' },
-  { src: mongooseLogo, alt: 'Mongoose', link: 'https://mongoosejs.com/', category: 'core' },
-  { src: postmanLogo, alt: 'Postman', link: 'https://www.postman.com/', category: 'core' },
+    // ================= CORE STACK =================
+    { src: jsLogo, alt: 'JavaScript', link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript', category: 'core' },
+    { src: reactLogo, alt: 'React', link: 'https://reactjs.org/', category: 'core' },
+    { src: nodeLogo, alt: 'NodeJS', link: 'https://nodejs.org/', category: 'core' },
+    { src: redux, alt: 'ReduxJS', link: 'https://redux.js.org/', category: 'core' },
+    { src: reactQuery, alt: 'React Query', link: 'https://tanstack.com/', category: 'core' },
+    { src: tailwindLogo, alt: 'Tailwind', link: 'https://tailwindcss.com/', category: 'core' },
+    { src: mongoDBLogo, alt: 'MongoDB', link: 'https://www.mongodb.com/', category: 'core' },
+    { src: mongooseLogo, alt: 'Mongoose', link: 'https://mongoosejs.com/', category: 'core' },
+    { src: postmanLogo, alt: 'Postman', link: 'https://www.postman.com/', category: 'core' },
 
-  // ================= SECONDARY =================
-  { src: html5Logo, alt: 'HTML5', link: 'https://html.spec.whatwg.org/', category: 'secondary' },
-  { src: cssLogo, alt: 'CSS', link: 'https://www.w3.org/Style/CSS/', category: 'secondary' },
-  { src: typeScriptLogo, alt: 'TypeScript', link: 'https://www.typescriptlang.org/', category: 'secondary' },
-  { src: nextLogo, alt: 'Next.js', link: 'https://nextjs.org/', category: 'secondary' },
-  { src: nestLogo, alt: 'NestJS', link: 'https://nestjs.com/', category: 'secondary' },
-  { src: pythonLogo, alt: 'Python', link: 'https://www.python.org/', category: 'secondary' },
-  { src: djangoLogo, alt: 'Django', link: 'https://www.djangoproject.com/', category: 'secondary' },
-  { src: rubyLogo, alt: 'Ruby', link: 'https://www.ruby-lang.org/', category: 'secondary' },
-  { src: rubyOnRailsLogo, alt: 'Ruby on Rails', link: 'https://rubyonrails.org/', category: 'secondary' },
-  { src: vitest, alt: 'Vitest', link: 'https://vitest.dev/', category: 'secondary' },
-  { src: jestLogo, alt: 'Jest', link: 'https://jestjs.io/', category: 'secondary' },
-  { src: rtlLogo, alt: 'React Testing Library', link: 'https://testing-library.com/', category: 'secondary' },
-  { src: sassLogo, alt: 'Sass', link: 'https://sass-lang.com/', category: 'secondary' },
-  { src: bootStrapLogo, alt: 'Bootstrap', link: 'https://getbootstrap.com/', category: 'secondary' },
-  { src: chakraUI, alt: 'Chakra UI', link: 'https://chakra-ui.com/', category: 'secondary' },
-  { src: MUILogo, alt: 'Material UI', link: 'https://mui.com/', category: 'secondary' },
-  { src: postgreSqlLogo, alt: 'PostgreSQL', link: 'https://www.postgresql.org/', category: 'secondary' },
-  { src: neonLogo, alt: 'Neon DB', link: 'https://neon.tech/', category: 'secondary' },
+    // ================= SECONDARY =================
+    { src: html5Logo, alt: 'HTML5', link: 'https://html.spec.whatwg.org/', category: 'secondary' },
+    { src: cssLogo, alt: 'CSS', link: 'https://www.w3.org/Style/CSS/', category: 'secondary' },
+    { src: typeScriptLogo, alt: 'TypeScript', link: 'https://www.typescriptlang.org/', category: 'secondary' },
+    { src: nextLogo, alt: 'Next.js', link: 'https://nextjs.org/', category: 'secondary' },
+    { src: nestLogo, alt: 'NestJS', link: 'https://nestjs.com/', category: 'secondary' },
+    { src: pythonLogo, alt: 'Python', link: 'https://www.python.org/', category: 'secondary' },
+    { src: djangoLogo, alt: 'Django', link: 'https://www.djangoproject.com/', category: 'secondary' },
+    { src: rubyLogo, alt: 'Ruby', link: 'https://www.ruby-lang.org/', category: 'secondary' },
+    { src: rubyOnRailsLogo, alt: 'Ruby on Rails', link: 'https://rubyonrails.org/', category: 'secondary' },
+    { src: vitest, alt: 'Vitest', link: 'https://vitest.dev/', category: 'secondary' },
+    { src: jestLogo, alt: 'Jest', link: 'https://jestjs.io/', category: 'secondary' },
+    { src: rtlLogo, alt: 'React Testing Library', link: 'https://testing-library.com/', category: 'secondary' },
+    { src: sassLogo, alt: 'Sass', link: 'https://sass-lang.com/', category: 'secondary' },
+    { src: bootStrapLogo, alt: 'Bootstrap', link: 'https://getbootstrap.com/', category: 'secondary' },
+    { src: chakraUI, alt: 'Chakra UI', link: 'https://chakra-ui.com/', category: 'secondary' },
+    { src: MUILogo, alt: 'Material UI', link: 'https://mui.com/', category: 'secondary' },
+    { src: postgreSqlLogo, alt: 'PostgreSQL', link: 'https://www.postgresql.org/', category: 'secondary' },
+    { src: neonLogo, alt: 'Neon DB', link: 'https://neon.tech/', category: 'secondary' },
 
-  // ================= TOOLS & PLATFORMS =================
-  { src: gitLogo, alt: 'Git', link: 'https://git-scm.com/', category: 'tools' },
-  { src: npmLogo, alt: 'NPM', link: 'https://www.npmjs.com/', category: 'tools' },
-  { src: dockerLogo, alt: 'Docker', link: 'https://www.docker.com/', category: 'tools' },
-  { src: viteLogo, alt: 'Vite', link: 'https://vitejs.dev/', category: 'tools' },
-  { src: stripe, alt: 'Stripe', link: 'https://stripe.com/', category: 'tools' },
-  { src: mercadoPago, alt: 'Mercado Pago', link: 'https://www.mercadopago.com.ar/developers/es', category: 'tools' },
-  { src: powerShellLogo, alt: 'PowerShell', link: 'https://docs.microsoft.com/en-us/powershell/', category: 'tools' },
+    // ================= TOOLS & PLATFORMS =================
+    { src: gitLogo, alt: 'Git', link: 'https://git-scm.com/', category: 'tools' },
+    { src: npmLogo, alt: 'NPM', link: 'https://www.npmjs.com/', category: 'tools' },
+    { src: dockerLogo, alt: 'Docker', link: 'https://www.docker.com/', category: 'tools' },
+    { src: viteLogo, alt: 'Vite', link: 'https://vitejs.dev/', category: 'tools' },
+    { src: stripe, alt: 'Stripe', link: 'https://stripe.com/', category: 'tools' },
+    { src: mercadoPago, alt: 'Mercado Pago', link: 'https://www.mercadopago.com.ar/developers/es', category: 'tools' },
+    { src: powerShellLogo, alt: 'PowerShell', link: 'https://docs.microsoft.com/en-us/powershell/', category: 'tools' },
 ];
 
 export const certifications = [
@@ -113,159 +113,159 @@ export const certifications = [
     { src: webDevelopment, alt: 'Web development; HTML5, CSS3' }
 ];
 
-export const projects = [ {
-        title: 'Gym Ecommerce',
-        projectImage: gymEcommerce,
-        backendIcon: nodeLogo,
-        frontendRepo: 'https://github.com/RobertFacundo/gymEcommerceF',
-        backendRepo: 'https://github.com/RobertFacundo/gymEcommerceB',
-        deployedUrl: 'https://gymecommerceb.onrender.com/',
-        styleIcon: tailwindLogo,
-        star:true,
-        subtitle: "MERN • TypeScript • Redux • React Query • Stripe • JWT"
-    },
-    {
-        title: 'Music App',
-        projectImage: musicApp,
-        backendIcon: nodeLogo,
-        frontendRepo: 'https://github.com/RobertFacundo/musicAppFrontend',
-        backendRepo: 'https://github.com/RobertFacundo/musicAppBackend',
-        deployedUrl: 'https://musicappbackend-ccph.onrender.com/',
-        styleIcon: tailwindLogo,
-        star:true,
-        subtitle:"MERN • TypeScript • Auth • Payments • Scalable Architecture "
-    },
-    {
-        title: 'Professional Ecommerce',
-        projectImage: sushiEcommerce,
-        backendIcon: nodeLogo,
-        frontendRepo: 'https://github.com/RobertFacundo/sushiEcommerceF',
-        backendRepo: 'https://github.com/RobertFacundo/sushiEcommerceB',
-        deployedUrl: 'https://sushiecommerceb.onrender.com/',
-        styleIcon: tailwindLogo,
-        star:true,
-        subtitle: "MERN • TypeScript • Redux Toolkit • React Query • JWT • Stripe"
-    },
-    {
-        title: 'Payment Flow Demo',
-        projectImage: paymentFlowDemo,
-        backendIcon: nodeLogo,
-        frontendRepo: 'https://github.com/RobertFacundo/paymentFlowDemoF',
-        backendRepo: 'https://github.com/RobertFacundo/paymentFlowDemoB',
-        deployedUrl: 'https://paymentflowdemob.onrender.com/',
-        styleIcon: MUILogo,
-        subtitle: "Node • Stripe • Paypal • JWT • Checkout • REST API "
-    },
-    {
-        title: 'MERN Ecommerce',
-        projectImage: ecommerceMERN,
-        backendIcon: nodeLogo,
-        frontendRepo: 'https://github.com/RobertFacundo/professionalEcommerceF/',
-        backendRepo: 'https://github.com/RobertFacundo/professionalEcommerceB/',
-        deployedUrl: 'https://professionalecommerceb.onrender.com/',
-        styleIcon: chakraUI,
-        subtitle: "MERN • Redux Toolkit • Stripe • MercadoPago • Chakra UI"
-    },
-    {
-        title: 'Recipe Hunter',
-        projectImage: recipeApp,
-        backendIcon: nodeLogo,
-        frontendRepo: 'https://github.com/RobertFacundo/recipeAppF',
-        backendRepo: 'https://github.com/RobertFacundo/recipeAppB',
-        deployedUrl: 'https://recipeappb.onrender.com/',
-        styleIcon: tailwindLogo,
-        subtitle: "MERN • JWT Auth • API Integration • Favorites • Tailwind"
-    },
-    {
-        title: 'Dream Journal',
-        projectImage: dreamjournal,
-        backendIcon: nestLogo,
-        frontendRepo: 'https://github.com/RobertFacundo/dreamJournalF',
-        backendRepo: 'https://github.com/RobertFacundo/dreamJournalB',
-        deployedUrl: 'https://dreamjournalb.onrender.com/',
-        styleIcon: sassLogo,
-        subtitle:"React • NestJS • PostgreSQL • JWT • TypeORM • SCSS"
-    },
-    {
-        title: 'Digital Library',
-        projectImage: digitalLibrary,
-        backendIcon: pythonLogo,
-        frontendRepo: 'https://github.com/RobertFacundo/digitalLibraryF',
-        backendRepo: 'https://github.com/RobertFacundo/digitalLibraryB',
-        deployedUrl: 'https://digitallibraryb.onrender.com/',
-        styleIcon: sassLogo,
-        subtitle:"React • Python • FastAPI • PostgreSQL • JWT • Framer Motion"
-    },
-    {
-        title: 'Calories Tracker',
-        projectImage: caloriesTracker,
-        backendIcon: rubyLogo,
-        frontendRepo: 'https://github.com/RobertFacundo/caloriesTrackerF',
-        backendRepo: 'https://github.com/RobertFacundo/caloriesTrackerB',
-        deployedUrl: 'https://caloriestrackerb.onrender.com/',
-        styleIcon: cssLogo,
-        subtitle:"React • Rails • PostgreSQL • JWT • Chart.js • Styled Components"
-    },
-    {
-        title: 'VideoGame Searcher',
-        projectImage: videogameSearcher,
-        backendIcon: '',
-        frontendRepo: 'https://github.com/RobertFacundo/videoGameSearcher',
-        backendRepo: '',
-        deployedUrl: 'https://videogame-searcher.vercel.app/',
-        styleIcon: sassLogo,
-        subtitle: "React • SCSS • Swiper • Autosuggest • Animations"
-    },
-    {
-        title: 'History Web Site',
-        projectImage: historyWebSite,
-        backendIcon: '',
-        frontendRepo: 'https://github.com/RobertFacundo/historyWebSite',
-        backendRepo: '',
-        deployedUrl: 'https://history-web-site.vercel.app/',
-        styleIcon: cssLogo,
-        subtitle: "React • i18next • Router • Markdown • Carousel • CSS"
-    },
-    {
-        title: 'Art Gallery',
-        projectImage: artGallery,
-        backendIcon: rubyLogo,
-        frontendRepo: 'https://github.com/RobertFacundo/galleryArtF',
-        backendRepo: 'https://github.com/RobertFacundo/galleryArtB',
-        deployedUrl: 'https://galleryartb.onrender.com/',
-        styleIcon: tailwindLogo,
-        subtitle: "React • Rails • PostgreSQL • JWT • Tailwind • Quiz"
-    },
-    {
-        title: 'E-commerce',
-        projectImage: ecommerce,
-        backendIcon: djangoLogo,
-        frontendRepo: 'https://github.com/RobertFacundo/eCommerceF',
-        backendRepo: 'https://github.com/RobertFacundo/eCommerceB',
-        deployedUrl: 'https://ecommerceb-tc17.onrender.com/',
-        styleIcon: cssLogo,
-        subtitle: "React • Django • PostgreSQL • Auth • Cart • REST API"
-    },
-    {
-        title: 'Photographic Portfolio',
-        projectImage: photographicPortfolio,
-        backendIcon: '',
-        frontendRepo: 'https://github.com/RobertFacundo/photographyPortfolio',
-        backendRepo: '',
-        deployedUrl: 'https://photography-portfolio-template-taupe.vercel.app/',
-        styleIcon: sassLogo,
-         subtitle: "React • Router • SCSS • Masonry • Responsive • Components"
-    },
-    {
-        title: 'Authentication',
-        projectImage: auth,
-        backendIcon: nestLogo,
-        frontendRepo: 'https://github.com/RobertFacundo/authF',
-        backendRepo: 'https://github.com/RobertFacundo/authB',
-        deployedUrl: 'https://authb.onrender.com/',
-        styleIcon: cssLogo,
-        subtitle:"React • Router • NestJS • PostgreSQL • Auth • REST API"
-    },
+export const projects = [{
+    title: 'Gym Ecommerce',
+    projectImage: gymEcommerce,
+    backendIcon: nodeLogo,
+    frontendRepo: 'https://github.com/RobertFacundo/gymEcommerceF',
+    backendRepo: 'https://github.com/RobertFacundo/gymEcommerceB',
+    deployedUrl: 'https://gymecommerceb.onrender.com/',
+    styleIcon: tailwindLogo,
+    star: true,
+    subtitle: "MERN • TypeScript • Redux • React Query • Stripe • JWT"
+},
+{
+    title: 'Music App',
+    projectImage: musicApp,
+    backendIcon: nodeLogo,
+    frontendRepo: 'https://github.com/RobertFacundo/musicAppFrontend',
+    backendRepo: 'https://github.com/RobertFacundo/musicAppBackend',
+    deployedUrl: 'https://musicappbackend-ccph.onrender.com/',
+    styleIcon: tailwindLogo,
+    star: true,
+    subtitle: "MERN • TypeScript • Auth • Payments • Scalable Architecture "
+},
+{
+    title: 'Professional Ecommerce',
+    projectImage: sushiEcommerce,
+    backendIcon: nodeLogo,
+    frontendRepo: 'https://github.com/RobertFacundo/sushiEcommerceF',
+    backendRepo: 'https://github.com/RobertFacundo/sushiEcommerceB',
+    deployedUrl: 'https://sushiecommerceb.onrender.com/',
+    styleIcon: tailwindLogo,
+    star: true,
+    subtitle: "MERN • TypeScript • Redux Toolkit • React Query • JWT • Stripe"
+},
+{
+    title: 'Payment Flow Demo',
+    projectImage: paymentFlowDemo,
+    backendIcon: nodeLogo,
+    frontendRepo: 'https://github.com/RobertFacundo/paymentFlowDemoF',
+    backendRepo: 'https://github.com/RobertFacundo/paymentFlowDemoB',
+    deployedUrl: 'https://paymentflowdemob.onrender.com/',
+    styleIcon: MUILogo,
+    subtitle: "Node • Stripe • Paypal • JWT • Checkout • REST API "
+},
+{
+    title: 'MERN Ecommerce',
+    projectImage: ecommerceMERN,
+    backendIcon: nodeLogo,
+    frontendRepo: 'https://github.com/RobertFacundo/professionalEcommerceF/',
+    backendRepo: 'https://github.com/RobertFacundo/professionalEcommerceB/',
+    deployedUrl: 'https://professionalecommerceb.onrender.com/',
+    styleIcon: chakraUI,
+    subtitle: "MERN • Redux Toolkit • Stripe • MercadoPago • Chakra UI"
+},
+{
+    title: 'Recipe Hunter',
+    projectImage: recipeApp,
+    backendIcon: nodeLogo,
+    frontendRepo: 'https://github.com/RobertFacundo/recipeAppF',
+    backendRepo: 'https://github.com/RobertFacundo/recipeAppB',
+    deployedUrl: 'https://recipeappb.onrender.com/',
+    styleIcon: tailwindLogo,
+    subtitle: "MERN • JWT Auth • API Integration • Favorites • Tailwind"
+},
+{
+    title: 'Dream Journal',
+    projectImage: dreamjournal,
+    backendIcon: nestLogo,
+    frontendRepo: 'https://github.com/RobertFacundo/dreamJournalF',
+    backendRepo: 'https://github.com/RobertFacundo/dreamJournalB',
+    deployedUrl: 'https://dreamjournalb.onrender.com/',
+    styleIcon: sassLogo,
+    subtitle: "React • NestJS • PostgreSQL • JWT • TypeORM • SCSS"
+},
+{
+    title: 'Digital Library',
+    projectImage: digitalLibrary,
+    backendIcon: pythonLogo,
+    frontendRepo: 'https://github.com/RobertFacundo/digitalLibraryF',
+    backendRepo: 'https://github.com/RobertFacundo/digitalLibraryB',
+    deployedUrl: 'https://digitallibraryb.onrender.com/',
+    styleIcon: sassLogo,
+    subtitle: "React • Python • FastAPI • PostgreSQL • JWT • Framer Motion"
+},
+{
+    title: 'Calories Tracker',
+    projectImage: caloriesTracker,
+    backendIcon: rubyLogo,
+    frontendRepo: 'https://github.com/RobertFacundo/caloriesTrackerF',
+    backendRepo: 'https://github.com/RobertFacundo/caloriesTrackerB',
+    deployedUrl: 'https://caloriestrackerb.onrender.com/',
+    styleIcon: cssLogo,
+    subtitle: "React • Rails • PostgreSQL • JWT • Chart.js • Styled Components"
+},
+{
+    title: 'VideoGame Searcher',
+    projectImage: videogameSearcher,
+    backendIcon: '',
+    frontendRepo: 'https://github.com/RobertFacundo/videoGameSearcher',
+    backendRepo: '',
+    deployedUrl: 'https://videogame-searcher.vercel.app/',
+    styleIcon: sassLogo,
+    subtitle: "React • SCSS • Swiper • Autosuggest • Animations"
+},
+{
+    title: 'History Web Site',
+    projectImage: historyWebSite,
+    backendIcon: '',
+    frontendRepo: 'https://github.com/RobertFacundo/historyWebSite',
+    backendRepo: '',
+    deployedUrl: 'https://history-web-site.vercel.app/',
+    styleIcon: cssLogo,
+    subtitle: "React • i18next • Router • Markdown • Carousel • CSS"
+},
+{
+    title: 'Art Gallery',
+    projectImage: artGallery,
+    backendIcon: rubyLogo,
+    frontendRepo: 'https://github.com/RobertFacundo/galleryArtF',
+    backendRepo: 'https://github.com/RobertFacundo/galleryArtB',
+    deployedUrl: 'https://galleryartb.onrender.com/',
+    styleIcon: tailwindLogo,
+    subtitle: "React • Rails • PostgreSQL • JWT • Tailwind • Quiz"
+},
+{
+    title: 'E-commerce',
+    projectImage: ecommerce,
+    backendIcon: djangoLogo,
+    frontendRepo: 'https://github.com/RobertFacundo/eCommerceF',
+    backendRepo: 'https://github.com/RobertFacundo/eCommerceB',
+    deployedUrl: 'https://ecommerceb-tc17.onrender.com/',
+    styleIcon: cssLogo,
+    subtitle: "React • Django • PostgreSQL • Auth • Cart • REST API"
+},
+{
+    title: 'Photographic Portfolio',
+    projectImage: photographicPortfolio,
+    backendIcon: '',
+    frontendRepo: 'https://github.com/RobertFacundo/photographyPortfolio',
+    backendRepo: '',
+    deployedUrl: 'https://photography-portfolio-template-taupe.vercel.app/',
+    styleIcon: sassLogo,
+    subtitle: "React • Router • SCSS • Masonry • Responsive • Components"
+},
+{
+    title: 'Authentication',
+    projectImage: auth,
+    backendIcon: nestLogo,
+    frontendRepo: 'https://github.com/RobertFacundo/authF',
+    backendRepo: 'https://github.com/RobertFacundo/authB',
+    deployedUrl: 'https://authb.onrender.com/',
+    styleIcon: cssLogo,
+    subtitle: "React • Router • NestJS • PostgreSQL • Auth • REST API"
+},
 ]
 
 export const technicalChallenges = [
@@ -288,3 +288,65 @@ export const technicalChallenges = [
         link: 'https://seat-map-builder.vercel.app/',
     },
 ]
+
+// export const experienceData = [
+//     {
+//         date: "Jan 2026 - Mar 2026",
+//         type: "project",
+//         title: "Professional E-commerce Projects",
+//         description: `
+//                     Built multiple <span>full-scale e-commerce</span> applications using professional architecture.
+//                     Implemented <span>JWT authentication</span>, cart system,
+//                     <span>Redux</span> state management,
+//                     <span>React Query</span>,
+//                     <span>internationalization</span> (i18n),
+//                     API integration and advanced component structure.
+//                     This stage marked the transition from study and practice to actively pursuing my first <span>professional opportunity</span>.
+//                 `,
+//         link: ""
+//     },
+
+//     {
+//         date: "Jan 2025",
+//         type: "study",
+//         title: "Advanced Practice and Skill Reinforcement",
+//         description:
+//             "After completing my full stack studies, I focused on strengthening my knowledge by building multiple projects, learning new libraries, improving UI design, animations, state management and API integration to reach a professional level.",
+//         link: ""
+//     },
+
+//     {
+//         date: "Jan 2024",
+//         type: "study",
+//         title: "Full Stack MERN Career Start",
+//         description:
+//             "Started my full stack development career at Coderhouse, completing courses in HTML, CSS, JavaScript, React and Node Backend. During this stage I learned the fundamentals of modern web development and built my first applications.",
+//         link: ""
+//     }
+// ];
+
+export const experienceData = [
+  {
+    date: "Jan 2026 - Mar 2026",
+    type: "project",
+    titleKey: "exp_2026_title",
+    descKey: "exp_2026_desc",
+    link: ""
+  },
+
+  {
+    date: "Jan 2025",
+    type: "study",
+    titleKey: "exp_2025_title",
+    descKey: "exp_2025_desc",
+    link: ""
+  },
+
+  {
+    date: "Jan 2024",
+    type: "study",
+    titleKey: "exp_2024_title",
+    descKey: "exp_2024_desc",
+    link: ""
+  }
+];

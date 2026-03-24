@@ -4,6 +4,7 @@ import { StyledProjectsContainer, StyledProjectCard, StyledHighlight } from '../
 import reactLogo from '../assets/programmingLanguages/react.png'
 import useAnalytics from "../hooks/useAnalytics.js";
 import { useTranslation, Trans } from "react-i18next";
+import {motion} from 'framer-motion'
 
 const ProjectsView = () => {
     const { increment } = useAnalytics('projectsView', 'tab');
@@ -41,57 +42,64 @@ const ProjectsView = () => {
                     </p>
                 </div>
                 <p className="disclaimer-right">
-                     <Trans
-                            i18nKey="disclaimer_star"
-                            components={{ highlight: <span /> }}
-                        />
+                    <Trans
+                        i18nKey="disclaimer_star"
+                        components={{ highlight: <span /> }}
+                    />
                 </p>
             </div>
             {
                 projects.map((project, index) => {
                     return (
-                        <StyledProjectCard index={index} key={index} >
-                            <div className="card-info">
-                                <div>
-                                    <h2 onClick={() => handleDeployedUrlClick(project)} style={{ cursor: 'pointer' }}>
-                                        {project.title}
-                                        {project.star && <span style={{ marginLeft: '0.5rem' }}>⭐</span>}
-                                    </h2>
-                                    <p className="subtitle">{project.subtitle}</p>
+                        <motion.div
+                            key={index}
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: index * 0.15, duration: 0.5, ease: "easeOut" }}
+                        >
+                            <StyledProjectCard index={index} key={index} >
+                                <div className="card-info">
+                                    <div>
+                                        <h2 onClick={() => handleDeployedUrlClick(project)} style={{ cursor: 'pointer' }}>
+                                            {project.title}
+                                            {project.star && <span style={{ marginLeft: '0.5rem' }}>⭐</span>}
+                                        </h2>
+                                        <p className="subtitle">{project.subtitle}</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <img src={project.projectImage} alt={`${project.title} screenshot`} />
+                                <img src={project.projectImage} alt={`${project.title} screenshot`} />
 
-                            <div className="links-container">
+                                <div className="links-container">
 
-                                {project.frontendRepo && (
-                                    <p
-                                        onClick={() => handleFrontendRepoClick(project)}
-                                        className="project-link"
-                                    >
-                                        Frontend Repo
-                                    </p>
-                                )}
-                                 {project.deployedUrl && (
-                                    <p
-                                        onClick={() => handleDeployedUrlClick(project)}
-                                        className="project-link"
-                                    >
-                                        Live Demo
-                                    </p>
-                                )}
+                                    {project.frontendRepo && (
+                                        <p
+                                            onClick={() => handleFrontendRepoClick(project)}
+                                            className="project-link"
+                                        >
+                                            Frontend Repo
+                                        </p>
+                                    )}
+                                    {project.deployedUrl && (
+                                        <p
+                                            onClick={() => handleDeployedUrlClick(project)}
+                                            className="project-link"
+                                        >
+                                            Live Demo
+                                        </p>
+                                    )}
 
-                                {project.backendRepo && (
-                                    <p
-                                        onClick={() => handleBackendRepoClick(project)}
-                                        className="project-link"
-                                    >
-                                        Backend Repo
-                                    </p>
-                                )}
+                                    {project.backendRepo && (
+                                        <p
+                                            onClick={() => handleBackendRepoClick(project)}
+                                            className="project-link"
+                                        >
+                                            Backend Repo
+                                        </p>
+                                    )}
 
-                            </div>
-                        </StyledProjectCard>
+                                </div>
+                            </StyledProjectCard>
+                        </motion.div>
                     )
                 })
             }

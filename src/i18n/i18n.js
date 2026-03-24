@@ -9,6 +9,7 @@ const resources = {
             "projects_link": "Projects",
             "change_language": "Change Language",
             "certifications_link": "Certifications",
+            "experience": "Experience",
             "technical_challenges": "Technical Challenges",
             "about_title": "Full-Stack Web Developer",
             "first_paragraph": "I am a <highlight>full-stack web developer</highlight> from Argentina, with <highlight>professional-level English</highlight> (gained through international experience in the U.S. hospitality industry). Over the past <highlight>two years</highlight>, I have fully dedicated myself to programming and developing personal projects, solidifying my career transition.",
@@ -29,7 +30,17 @@ const resources = {
             "challenge_coalition_test_title": "Patient Dashboard",
             "challenge_coalition_test_date": "October 2023",
             "challenge_coalition_test_description": "A pixel-perfect, responsive React dashboard replicating a detailed medical patient data visualization design (Figma/Adobe XD). Features include Recharts integration for diagnostic history and modular component architecture."
+            ,
 
+            "exp_2026_title": "Professional E-commerce Projects",
+            "exp_2026_desc":
+                "Built multiple <highlight>full-scale e-commerce</highlight> applications using professional architecture. Implemented <highlight>JWT authentication</highlight>, cart system, <highlight>Redux</highlight> state management, <highlight>React Query</highlight>, <highlight>internationalization</highlight> (i18n), API integration and advanced component structure. This stage marked the transition from study and practice to actively pursuing my first <highlight>professional opportunity</highlight>",
+            "exp_2025_title": "Advanced Practice and Skill Reinforcement",
+            "exp_2025_desc":
+                "After completing my <highlight>full stack studies</highlight>, I focused on strengthening my knowledge by building <highlight>multiple projects</highlight>, learning new libraries, improving <highlight>UI design</highlight>, animations, <highlight>state management</highlight> and API integration to reach a <highlight>professional level</highlight>",
+            "exp_2024_title": "Full Stack MERN Career Start",
+            "exp_2024_desc":
+                "Started my <highlight>full stack development</highlight> career at Coderhouse, completing courses in <highlight>HTML</highlight>, <highlight>CSS</highlight>, <highlight>JavaScript</highlight>, <highlight>React</highlight> and <highlight>Node</highlight> backend. During this stage I learned the fundamentals of <highlight>modern web development</highlight> and built my first <highlight>applications</highlight>"
         }
     },
     es: {
@@ -38,6 +49,7 @@ const resources = {
             "projects_link": "Proyectos",
             "change_language": "Cambia el idioma",
             "certifications_link": "Certificaciones",
+            "experience": "Experiencia",
             "technical_challenges": "Desafios Técnicos",
             "about_title": "Full-Stack Web Developer",
             "first_paragraph": "Soy un <highlight>desarrollador web full-stack</highlight> de Argentina, con <highlight>nivel de inglés profesional</highlight> (experiencia internacional adquirida en la industria hotelera de EE. UU). En los últimos <highlight>dos años</highlight>, me he dedicado de lleno a la programación y al desarrollo de proyectos propios, consolidando mi transición de carrera.",
@@ -53,12 +65,27 @@ const resources = {
 
             "challenge_seat_map_title": "Constructor de Mapas de Asientos",
             "challenge_seat_map_date": "Septiembre de 2025",
-            "challenge_seat_map_description": "Desarrollado como un desafío técnico para demostrar habilidades avanzadas de front-end y gestión de estado. Construida con React y Next.js, esta herramienta interactiva permite a los usuarios diseñar y etiquetar mapas de asientos dinámicos desde cero. Las características clave incluyen un sistema avanzado de Arrastrar y Soltar (Drag and Drop) para reordenar filas, etiquetado por lotes para numeración masiva, e importación/exportación robusta de JSON con validación de esquema para la persistencia del mapa.",
+            "challenge_seat_map_description": "Desarrollado como un desafío técnico para demostrar habilidades avanzadas de front-end y gestión de estado. Construida con React y Next.js, esta herramienta interactiva permite a los usuarios diseñar y etiquetar mapas de asientos dinámicos desde cero. Las características clave incluyen un sistema avanzado de Arrastrar y Soltar (Drag and Drop) para reordenar filas, etiquetado por lotes para numeración masiva, e importación/exportación robusta de JSON con validación de esquema para la persistencia del mapa",
 
 
             "challenge_coalition_test_title": "Panel de Control de Pacientes",
             "challenge_coalition_test_date": "Octubre 2025",
             "challenge_coalition_test_description": "Panel de control responsivo y con fidelidad pixel-perfect desarrollado en React. Replica un diseño detallado de visualización de datos médicos de pacientes, incluyendo la integración de Recharts para el historial de diagnóstico y arquitectura modular."
+            ,
+            "exp_2026_title": "Proyectos Profesionales de E-commerce",
+
+            "exp_2026_desc":
+                "Desarrollé múltiples aplicaciones <highlight>de e-commerce a gran escala</highlight> utilizando una arquitectura profesional. Implementé <highlight>autenticación JWT</highlight>, sistema de carrito, gestión de estado con <highlight>Redux</highlight>, <highlight>React Query</highlight>, <highlight>internacionalización</highlight> (i18n), integración con APIs y una estructura avanzada de componentes. Esta etapa marcó la transición del estudio y la práctica a la búsqueda activa de mi primera <highlight>oportunidad profesional</highlight>",
+
+            "exp_2025_title": "Práctica Avanzada y Refuerzo de Habilidades",
+
+            "exp_2025_desc":
+                "Tras completar mis estudios de <highlight>full stack</highlight>, me enfoqué en fortalecer mis conocimientos construyendo <highlight>múltiples proyectos</highlight>, aprendiendo nuevas librerías, mejorando el <highlight>diseño de interfaces</highlight>, animaciones, <highlight>gestión de estado</highlight> e integración con APIs para alcanzar un <highlight>nivel profesional</highlight>",
+
+            "exp_2024_title": "Inicio de Carrera Full Stack MERN",
+
+            "exp_2024_desc":
+                "Comencé mi carrera de <highlight>desarrollo full stack</highlight> en Coderhouse, completando cursos de <highlight>HTML</highlight>, <highlight>CSS</highlight>, <highlight>JavaScript</highlight>, <highlight>React</highlight> y backend con <highlight>Node</highlight>. Durante esta etapa aprendí los fundamentos del <highlight>desarrollo web moderno</highlight> y construí mis primeras <highlight>aplicaciones</highlight>"
         }
     }
 };

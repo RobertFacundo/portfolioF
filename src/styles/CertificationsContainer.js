@@ -3,7 +3,7 @@ import styled, {keyframes} from "styled-components";
 const slideIn = keyframes`
     from {
         opacity: 0;
-        transform: translateY(-50px);
+        transform: translateY(-25px);
     }to{
         opacity: 1;
         transform: translateY(0);
@@ -18,7 +18,7 @@ export const StyledCertificationsContainer = styled.div`
     gap: 1rem;
     padding: 1rem;
     margin-top: 5px;
-    border-top: 2px solid rgba(0, 255, 65, 0.2);
+    /* border-top: 2px solid rgba(0, 255, 65, 0.2); */
 
     /* CLAVE 1: Transición para el efecto hover. Se aplica a 'transform' y es de 0.8s */
     
@@ -33,8 +33,8 @@ export const StyledCertImage = styled.img`
     opacity: 0;
     transform: translateY(-50px);
     
-    animation: ${slideIn} 1.6s ease-out forwards;
-    animation-delay: ${({ index }) => index * 0.4}s;
+    animation: ${slideIn} 0.6s ease-out forwards;
+    animation-delay: ${({ index }) => index * 0.2}s;
 
     // This media query is not needed since the component is using flexbox
     @media (max-width: 1024px) {

@@ -4,6 +4,7 @@ import ProjectsView from "./views/ProjectsView"
 import NavBar from "./components/NavBar"
 import AboutView from "./views/AboutView"
 import CertificationsView from "./views/CertificationsView"
+import ExperienceView from './views/ExperienceView'
 import TechnicalChallengesView from './views/TechnicalChallengesView.jsx'
 import Footer from "./components/Footer"
 import './i18n/i18n';
@@ -26,6 +27,7 @@ function App() {
         <Route path="/" element={<ProjectsView />} />
         <Route path="/About" element={<AboutView />} />
         <Route path="/Certifications" element={<CertificationsView />} />
+        <Route path="/experience" element={<ExperienceView />} />
         {/* <Route path="/technicalChallenges" element={<TechnicalChallengesView />} /> */}
       </Routes>
       <Footer />
