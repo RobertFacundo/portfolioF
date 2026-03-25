@@ -83,9 +83,9 @@ export const StyledProjectCard = styled.div`
         }
 
         .subtitle{
-            font-size: 0.8rem;
+            font-size: 0.6rem;
             color: rgba(255, 255, 255, 0.7);
-            font-family: 'VT323', monospace;
+            font-family: 'Oxanium', sans-serif;
             letter-spacing: 1px;
             display: -webkit-box;
             -webkit-line-clamp: 2;
