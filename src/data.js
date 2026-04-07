@@ -32,6 +32,7 @@ import reactQuery from './assets/programmingLanguages/reactQuery.webp';
 import jestLogo from './assets/programmingLanguages/jest.png';
 import rtlLogo from './assets/programmingLanguages/rtl.png';
 import vitest from './assets/programmingLanguages/vitest.svg'
+import shopifyLogo from './assets/programmingLanguages/shopify.png'
 
 import backEndI from './assets/certifications/BackEnd1.png';
 import backEnd2 from './assets/certifications/BackEnd2.png';
@@ -67,6 +68,7 @@ export const languageLogos = [
     { src: nodeLogo, alt: 'NodeJS', link: 'https://nodejs.org/', category: 'core' },
     { src: redux, alt: 'ReduxJS', link: 'https://redux.js.org/', category: 'core' },
     { src: reactQuery, alt: 'React Query', link: 'https://tanstack.com/', category: 'core' },
+    { src: typeScriptLogo, alt: 'TypeScript', link: 'https://www.typescriptlang.org/', category: 'core' },
     { src: tailwindLogo, alt: 'Tailwind', link: 'https://tailwindcss.com/', category: 'core' },
     { src: mongoDBLogo, alt: 'MongoDB', link: 'https://www.mongodb.com/', category: 'core' },
     { src: mongooseLogo, alt: 'Mongoose', link: 'https://mongoosejs.com/', category: 'core' },
@@ -75,7 +77,7 @@ export const languageLogos = [
     // ================= SECONDARY =================
     { src: html5Logo, alt: 'HTML5', link: 'https://html.spec.whatwg.org/', category: 'secondary' },
     { src: cssLogo, alt: 'CSS', link: 'https://www.w3.org/Style/CSS/', category: 'secondary' },
-    { src: typeScriptLogo, alt: 'TypeScript', link: 'https://www.typescriptlang.org/', category: 'secondary' },
+    { src: shopifyLogo, alt: 'Shopify', link: 'https://www.shopify.com/', category: 'secondary' },
     { src: nextLogo, alt: 'Next.js', link: 'https://nextjs.org/', category: 'secondary' },
     { src: nestLogo, alt: 'NestJS', link: 'https://nestjs.com/', category: 'secondary' },
     { src: pythonLogo, alt: 'Python', link: 'https://www.python.org/', category: 'secondary' },

@@ -18,6 +18,16 @@ export const StyledAboutSection = styled.div`
         border-bottom-width: 2px;
         }
     }
+
+    .cv-icon svg {
+  color: #28c522;
+  transition: all 0.2s ease;
+}
+
+.cv-icon:hover svg {
+  color: #1faa1a;
+  transform: scale(1.1);
+}
     p{
         padding-top: 1rem;
         padding-right: 1rem;
