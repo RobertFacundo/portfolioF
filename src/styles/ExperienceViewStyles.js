@@ -57,7 +57,7 @@ font-size: 1.4rem; /* Base font size */
    cursor: pointer;
   padding: 4px 0;
 
-  color: ${(p) => (p.active ? "#39ff14" : "#8b949e")};
+  color: ${(p) => (p.active ? "#39ff14" : "rgba(57,255,20,0.6)")};
 
   background: ${(p) =>
         p.active ? "rgba(57,255,20,0.12)" : "transparent"};
@@ -79,6 +79,12 @@ font-size: 1.4rem; /* Base font size */
   }
 `;
 
+export const DateText = styled.span`
+  font-size: 1.1rem;
+  margin-right: 4px;
+  color: rgba(191, 248, 156, 0.5);
+`;
+
 export const TerminalInfo = styled.div`
   display: flex;
   flex-direction: column;
@@ -97,7 +103,7 @@ export const TerminalInfo = styled.div`
     margin-bottom: 6px;
 
     text-shadow:
-      0 0 4px rgba(0,255,100,0.7),
+      0 0 4px rgba(0,255,100,0.5),
       0 0 8px rgba(0,255,100,0.4);
 
         @media (max-width: 768px) {
@@ -112,7 +118,8 @@ export const TerminalInfo = styled.div`
     font-family: 'Oxanium', sans-serif;
     font-size: 1.1rem; 
     letter-spacing: 1.4px;
-    color: #c9d1d9;
+    font-weight: 300;
+    color: white;
 
     text-shadow:  0 0 2px rgba(0,255,100,0.3),
       0 0 4px rgba(0,255,100,0.2);
@@ -133,7 +140,7 @@ export const TerminalInfo = styled.div`
   text-align: center;
   cursor: pointer;
   color: #ffffff;
-  font-family: 'VT323', monospace;
+  font-family: 'Oxanium', sans-serif;
   letter-spacing: 0.5px;
   font-size: 1.4rem;
   font-weight: 300;

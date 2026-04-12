@@ -14,7 +14,7 @@ const NavBar = () => {
                 <NavList>
                     <NavItem><NavLink to='/About'>{t("about_link")}</NavLink></NavItem>
                     <NavItem><NavLink to='/'>{t("projects_link")}</NavLink></NavItem>
-                    <NavItem><NavLink to='/Certifications'>{t("certifications_link")}</NavLink></NavItem>
+                    {/* <NavItem><NavLink to='/Certifications'>{t("certifications_link")}</NavLink></NavItem> */}
                     <NavItem><NavLink to='/Experience'>{t("experience")}</NavLink></NavItem>
                     {/* <NavItem><NavLink to='/TechnicalChallenges'>{t("technical_challenges")}</NavLink></NavItem> */}
                 </NavList>

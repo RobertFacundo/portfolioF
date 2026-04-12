@@ -9,6 +9,7 @@ import {
     TerminalInfo,
     Highlight,
     Cursor,
+    DateText,
 } from "../styles/ExperienceViewStyles";
 import { Trans, useTranslation } from "react-i18next";
 
@@ -49,7 +50,7 @@ const ExperienceView = () => {
                                 active={i === selected}
                                 onClick={() => setSelected(i)}
                             >
-                                {">"} {item.date} | {t(item.titleKey)}
+                                {">"} <DateText>{item.date}</DateText> | {t(item.titleKey)}
                             </LinkItem>
                         </motion.div>
                     ))}
@@ -62,7 +63,7 @@ const ExperienceView = () => {
                     transition={{ duration: 0.4 }}
                 >
 
-                    <h3>{t(job.titleKey)}</h3>
+                    {/* <h3>{t(job.titleKey)}</h3> */}
 
                     <p>
                         <Trans

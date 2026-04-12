@@ -4,7 +4,7 @@ export const StyledAboutSection = styled.div`
     h1{
         padding-top: 3rem;
         border-bottom: 1px solid rgba(0, 255, 65, 0.2);
-        letter-spacing: 0.3rem;
+        letter-spacing: 0.1rem;
         font-size: 1.9em;
 
         @media (max-width: 768px){

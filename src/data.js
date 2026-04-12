@@ -328,6 +328,13 @@ export const technicalChallenges = [
 // ];
 
 export const experienceData = [
+     {
+    date: "Apr 2026 - Currently",
+    type: "project",
+    titleKey: "exp_2026_apr_title",
+    descKey: "exp_2026_apr_desc",
+    link: ""
+  },
   {
     date: "Jan 2026 - Mar 2026",
     type: "project",

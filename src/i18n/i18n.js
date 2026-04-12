@@ -11,14 +11,17 @@ const resources = {
             "certifications_link": "Certifications",
             "experience": "Experience",
             "technical_challenges": "Technical Challenges",
-            "about_title": "Full-Stack Web Developer",
-            "first_paragraph": "I am a <highlight>full-stack web developer</highlight> from Argentina, with <highlight>professional-level English</highlight> (gained through international experience in the U.S. hospitality industry). Over the past <highlight>two years</highlight>, I have fully dedicated myself to programming and developing personal projects, solidifying my career transition.",
-            "second_paragraph": "I have strong experience in <highlight>React</highlight> and back-end development with <highlight>Node.js and Express</highlight>. My hands-on projects have allowed me to understand different architectural patterns and work with multiple technologies, creating dynamic interfaces and robust systems.",
-            "third_paragraph": "I am seeking my <highlight>first professional role in IT</highlight>, bringing my commitment to <highlight>clean code and best practices</highlight>. My personal projects are professionally documented and organized, demonstrating responsibility and work ethic.",
-            "last_paragraph": "I am ready to contribute my <highlight>passion and skills</highlight> to a team where I can grow and continue learning as a developer.",
+            "about_title": "Front End Developer",
+            "first_paragraph": "I am a <highlight>frontend-focused developer</highlight> from Argentina, with <highlight>professional-level English</highlight> gained through international experience in the U.S. hospitality industry. Over the past <highlight>two years</highlight>, I have dedicated myself to programming and building real-world projects, solidifying my transition into tech.",
+
+            "second_paragraph": "I specialize in building modern interfaces using <highlight>React</highlight> and <highlight>TypeScript</highlight>, focusing on <highlight>responsive design</highlight>, clean component architecture, and state management with <highlight>Redux Toolkit</highlight> and <highlight>React Query</highlight>.",
+
+            "third_paragraph": "I also have experience with <highlight>Node.js and Express</highlight> on the backend, which allows me to better understand API integration and full-stack workflows. My current focus is on <highlight>frontend development</highlight>, building user-centered interfaces and delivering high-quality UI.",
+
+            "last_paragraph": "I am seeking my <highlight>first professional role as a frontend developer</highlight>, bringing a <highlight>proactive mindset</highlight>, demonstrated through continuous learning and real-world projects, along with strong communication skills, and a commitment to <highlight>clean code and best practices</highlight>.",
             "disclaimer": "Clicking the <highlight>project title</highlight> will open the deployed URL.<br/>Clicking the <highlight>Backend icon</highlight> or the <highlight>Frontend GitHub icon</highlight> will open their respective repositories.<br/>Please note that the backends for these projects, deployed on <highlight>Render</highlight>, may experience a <highlight>cold start</highlight> on the first visit, causing a brief delay.",
             "disclaimer_left": "Every project was made with a <1></1> Front-End deployed on <2>Vercel</2>. ",
-            "disclaimer_star": "<highlight>⭐</highlight> Production-ready projects with professional architecture.",
+            "disclaimer_star": "<highlight>⭐</highlight> Full-Stack projects with professional architecture.",
 
             "total_coding_time_title": "Total Coding Time",
             "last_updated_label": "Last Monthly Updated",
@@ -31,7 +34,10 @@ const resources = {
             "challenge_coalition_test_date": "October 2023",
             "challenge_coalition_test_description": "A pixel-perfect, responsive React dashboard replicating a detailed medical patient data visualization design (Figma/Adobe XD). Features include Recharts integration for diagnostic history and modular component architecture."
             ,
+            "exp_2026_apr_title": "Frontend Development (UI & Landing Experiences)",
 
+            "exp_2026_apr_desc":
+                "Currently focused on <highlight>frontend development</highlight>, building <highlight>pixel-perfect user interfaces</highlight> by translating Figma designs into React applications. Working on <highlight>UI challenges</highlight>, improving layout precision, responsiveness, and component architecture. Also developing <highlight>creative landing experiences</highlight> with animations and interactive elements to enhance user experience.",
             "exp_2026_title": "Professional E-commerce Projects",
             "exp_2026_desc":
                 "Built multiple <highlight>full-scale e-commerce</highlight> applications using professional architecture. Implemented <highlight>JWT authentication</highlight>, cart system, <highlight>Redux</highlight> state management, <highlight>React Query</highlight>, <highlight>internationalization</highlight> (i18n), API integration and advanced component structure. This stage marked the transition from study and practice to actively pursuing my first <highlight>professional opportunity</highlight>",
@@ -51,14 +57,17 @@ const resources = {
             "certifications_link": "Certificaciones",
             "experience": "Experiencia",
             "technical_challenges": "Desafios Técnicos",
-            "about_title": "Full-Stack Web Developer",
-            "first_paragraph": "Soy un <highlight>desarrollador web full-stack</highlight> de Argentina, con <highlight>nivel de inglés profesional</highlight> (experiencia internacional adquirida en la industria hotelera de EE. UU). En los últimos <highlight>dos años</highlight>, me he dedicado de lleno a la programación y al desarrollo de proyectos propios, consolidando mi transición de carrera.",
-            "second_paragraph": "Tengo experiencia sólida en <highlight>React</highlight> y en back-end con <highlight>Node.js, Express</highlight>. Mis proyectos prácticos me han permitido comprender diferentes patrones arquitectónicos y trabajar con múltiples tecnologías, creando interfaces dinámicas y sistemas robustos.",
-            "third_paragraph": "Busco mi <highlight>primer rol profesional en TI</highlight>, aportando mi compromiso con el <highlight>código limpio y buenas prácticas</highlight>. Mis proyectos personales están documentados y organizados profesionalmente, demostrando responsabilidad y ética de trabajo.",
-            "last_paragraph": "Estoy listo para aportar mi <highlight>pasión y habilidades</highlight> a un equipo donde pueda crecer y aprender como desarrollador.",
+            "about_title": "Front End Developer",
+            "first_paragraph": "Soy un <highlight>desarrollador enfocado en Front-End</highlight> de Argentina, con <highlight>nivel profesional de inglés</highlight>, adquirido a través de experiencia internacional en la industria de hospitalidad en EE.UU. Durante los últimos <highlight>dos años</highlight>, me he dedicado completamente a la programación y al desarrollo de proyectos reales, consolidando mi transición al mundo IT.",
+
+            "second_paragraph": "Me especializo en construir interfaces modernas utilizando <highlight>React</highlight> y <highlight>TypeScript</highlight>, enfocándome en <highlight>diseño responsive</highlight>, arquitectura de componentes limpia y manejo de estado con <highlight>Redux Toolkit</highlight> y <highlight>React Query</highlight>.",
+
+            "third_paragraph": "También cuento con experiencia en backend con <highlight>Node.js y Express</highlight>, lo que me permite comprender mejor la integración de APIs y el funcionamiento full-stack. Actualmente, mi enfoque está en el <highlight>desarrollo frontend</highlight>, creando interfaces centradas en el usuario y de alta calidad.",
+
+            "last_paragraph": "Busco mi <highlight>primer rol profesional como desarrollador frontend</highlight>, aportando una <highlight>mentalidad proactiva</highlight>, demostrada a través del aprendizaje constante y el desarrollo de proyectos reales, junto con sólidas habilidades de comunicación y un fuerte compromiso con el <highlight>código limpio y las buenas prácticas</highlight>.",
             "disclaimer": "Al hacer clic en el <highlight>título del proyecto</highlight>, se abrirá la URL desplegada.<br/>Al hacer clic en el <highlight>icono del backend</highlight> o en el <highlight>icono de GitHub del frontend</highlight>, se abrirán sus respectivos repositorios.<br/>Los backends para estos proyectos, desplegados en <highlight>Render</highlight>, pueden experimentar un <highlight>arranque en frío</highlight> en la primera visita, lo que puede causar un breve delay.",
             "disclaimer_left": "Cada proyecto fue hecho con <1></1> Front-End desplegado en <2>Vercel</2>.",
-            "disclaimer_star": "<highlight>⭐</highlight> Proyectos con arquitectura profesional y listos para producción.",
+            "disclaimer_star": "<highlight>⭐</highlight> Proyectos Full-Stack con arquitectura profesional.",
 
             "total_coding_time_title": "Tiempo total de Codigo",
             "last_updated_label": "Última actualización mensual",
@@ -72,6 +81,11 @@ const resources = {
             "challenge_coalition_test_date": "Octubre 2025",
             "challenge_coalition_test_description": "Panel de control responsivo y con fidelidad pixel-perfect desarrollado en React. Replica un diseño detallado de visualización de datos médicos de pacientes, incluyendo la integración de Recharts para el historial de diagnóstico y arquitectura modular."
             ,
+
+            "exp_2026_apr_title": "Desarrollo Frontend (UI & Experiencias de Landing)",
+
+            "exp_2026_apr_desc":
+                "Actualmente enfocado en el <highlight>desarrollo frontend</highlight>, construyendo <highlight>interfaces pixel-perfect</highlight> a partir de diseños en Figma utilizando React. Trabajando en <highlight>desafíos de UI</highlight>, mejorando precisión en layouts, responsividad y arquitectura de componentes. Además, desarrollando <highlight>landings creativas</highlight> con animaciones y elementos interactivos para mejorar la experiencia de usuario.",
             "exp_2026_title": "Proyectos Profesionales de E-commerce",
 
             "exp_2026_desc":

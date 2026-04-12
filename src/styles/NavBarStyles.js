@@ -48,11 +48,11 @@ export const NavItem = styled.li`
   a {
     position: relative;
     display: inline-block;
-    padding: 8px 10px;
+    padding: 8px 30px;
     text-decoration: none;
     color: #ffffff;
     font-family: 'VT323', monospace;
-    font-size: 1.6rem; /* Base font size */
+    font-size: 2rem; /* Base font size */
     letter-spacing: 4px;
     overflow: hidden;
     border: none;
