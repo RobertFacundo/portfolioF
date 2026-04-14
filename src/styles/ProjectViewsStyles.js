@@ -1,6 +1,36 @@
 import styled, { keyframes } from "styled-components";
 
 
+export const Filters = styled.div`
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+`
+
+export const FilterButton = styled.button`
+    background:none;
+    border:none;
+    cursor:pointer;
+    font-style: italic;
+    color: ${({ active }) => active ? '#39ff14' : 'rgba(191, 248, 156, 0.5)'};
+    margin-right: 0.5rem;
+
+    transition: all 0.2s ease;
+
+    &:hover{
+        color: #39ff14;
+        transform: translateY(-1px)
+    }
+
+    &::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: ${({ active }) => active ? '100%' : '0%'};
+    background: #39ff14;
+    transition: width 0.3s ease;
+}
+`
 
 export const StyledProjectsContainer = styled.div`
     display: flex;
@@ -10,41 +40,16 @@ export const StyledProjectsContainer = styled.div`
     /* border-top: 1px solid rgba(0, 255, 65, 0.1); */
     padding-bottom: 3rem;  
 
-    .disclaimer-container {
+    .filters-container {
         width: 100%;
         display:flex;
-        justify-content: space-between;
+        justify-content: center;
         font-size: 0.9rem;
         font-style: italic;
         margin-left: 1rem;
         color: rgba(255, 255, 255, 0.7);
         padding-top: 1rem;
         padding-bottom: 1rem;
-
-
-        .disclaimer-left-container{
-            display: flex;
-            flex-direction: column;
-            .disclaimer-left {
-                text-align: left;
-                .tech-logo {
-                  height: 5em; // Sets the height of the logo to match the font size
-                  width: auto; // Maintains the logo's aspect ratio
-                  vertical-align: middle; // Aligns the logo vertically with the text
-                }
-    
-                a{
-                    color: #00FF41;
-                }
-            }
-            
-        }
-        .disclaimer-right{
-            text-align: right;
-            padding-right: 1rem;
-            max-width: 800px;
-            margin-top:27px;
-        }
 
         @media (max-width: 768px){
             font-size: 0.6rem;
@@ -77,9 +82,11 @@ export const StyledProjectCard = styled.div`
         padding: 1rem;
 
         h2{
-            font-size: 1.3rem;
+            font-size: 1.6rem;
             margin: 0;
             transition: color 0.6s ease;
+            letter-spacing: 0.1rem;
+            font-family: "Space Grotesk", sans-serif;
         }
 
         .subtitle{

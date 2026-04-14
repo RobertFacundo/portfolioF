@@ -124,7 +124,9 @@ export const projects = [{
     deployedUrl: 'https://gymecommerceb.onrender.com/',
     styleIcon: tailwindLogo,
     star: true,
-    subtitle: "MERN • TypeScript • Redux • React Query • Stripe • JWT"
+    subtitle: "MERN • TypeScript • Redux • React Query • Stripe • JWT",
+    date: "2026-02-02",
+    type:"fullstack"
 },
 {
     title: 'Music App',
@@ -135,7 +137,9 @@ export const projects = [{
     deployedUrl: 'https://musicappbackend-ccph.onrender.com/',
     styleIcon: tailwindLogo,
     star: true,
-    subtitle: "MERN • TypeScript • Auth • Payments • Scalable Architecture "
+    subtitle: "MERN • TypeScript • Auth • Payments • Scalable Architecture ",
+    date: "2026-01-07",
+    type:"fullstack"
 },
 {
     title: 'Professional Ecommerce',
@@ -146,7 +150,9 @@ export const projects = [{
     deployedUrl: 'https://sushiecommerceb.onrender.com/',
     styleIcon: tailwindLogo,
     star: true,
-    subtitle: "MERN • TypeScript • Redux Toolkit • React Query • JWT • Stripe"
+    subtitle: "MERN • TypeScript • Redux Toolkit • React Query • JWT • Stripe",
+    date: "2025-11-26",
+    type:"fullstack"
 },
 {
     title: 'Payment Flow Demo',
@@ -156,7 +162,9 @@ export const projects = [{
     backendRepo: 'https://github.com/RobertFacundo/paymentFlowDemoB',
     deployedUrl: 'https://paymentflowdemob.onrender.com/',
     styleIcon: MUILogo,
-    subtitle: "Node • Stripe • Paypal • JWT • Checkout • REST API "
+    subtitle: "Node • Stripe • Paypal • JWT • Checkout • REST API ",
+    date: "2025-11-17",
+    type:"fullstack"
 },
 {
     title: 'MERN Ecommerce',
@@ -166,7 +174,9 @@ export const projects = [{
     backendRepo: 'https://github.com/RobertFacundo/professionalEcommerceB/',
     deployedUrl: 'https://professionalecommerceb.onrender.com/',
     styleIcon: chakraUI,
-    subtitle: "MERN • Redux Toolkit • Stripe • MercadoPago • Chakra UI"
+    subtitle: "MERN • Redux Toolkit • Stripe • MercadoPago • Chakra UI",
+    date: "2025-11-03",
+    type:"fullstack"
 },
 {
     title: 'Recipe Hunter',
@@ -176,7 +186,9 @@ export const projects = [{
     backendRepo: 'https://github.com/RobertFacundo/recipeAppB',
     deployedUrl: 'https://recipeappb.onrender.com/',
     styleIcon: tailwindLogo,
-    subtitle: "MERN • JWT Auth • API Integration • Favorites • Tailwind"
+    subtitle: "MERN • JWT Auth • API Integration • Favorites • Tailwind",
+    date: "2025-10-1",
+    type:"fullstack"
 },
 {
     title: 'Dream Journal',
@@ -186,7 +198,9 @@ export const projects = [{
     backendRepo: 'https://github.com/RobertFacundo/dreamJournalB',
     deployedUrl: 'https://dreamjournalb.onrender.com/',
     styleIcon: sassLogo,
-    subtitle: "React • NestJS • PostgreSQL • JWT • TypeORM • SCSS"
+    subtitle: "React • NestJS • PostgreSQL • JWT • TypeORM • SCSS",
+    date: "2025-06-12",
+    type:"fullstack"
 },
 {
     title: 'Digital Library',
@@ -196,7 +210,9 @@ export const projects = [{
     backendRepo: 'https://github.com/RobertFacundo/digitalLibraryB',
     deployedUrl: 'https://digitallibraryb.onrender.com/',
     styleIcon: sassLogo,
-    subtitle: "React • Python • FastAPI • PostgreSQL • JWT • Framer Motion"
+    subtitle: "React • Python • FastAPI • PostgreSQL • JWT • Framer Motion",
+    date: "2025-06-21",
+    type:"fullstack"
 },
 {
     title: 'Calories Tracker',
@@ -206,7 +222,9 @@ export const projects = [{
     backendRepo: 'https://github.com/RobertFacundo/caloriesTrackerB',
     deployedUrl: 'https://caloriestrackerb.onrender.com/',
     styleIcon: cssLogo,
-    subtitle: "React • Rails • PostgreSQL • JWT • Chart.js • Styled Components"
+    subtitle: "React • Rails • PostgreSQL • JWT • Chart.js • Styled Components",
+    date: "2025-05-27",
+    type:"fullstack"
 },
 {
     title: 'VideoGame Searcher',
@@ -216,7 +234,9 @@ export const projects = [{
     backendRepo: '',
     deployedUrl: 'https://videogame-searcher.vercel.app/',
     styleIcon: sassLogo,
-    subtitle: "React • SCSS • Swiper • Autosuggest • Animations"
+    subtitle: "React • SCSS • Swiper • Autosuggest • Animations",
+    date: "2025-06-20",
+    type:"frontend"
 },
 {
     title: 'History Web Site',
@@ -226,7 +246,9 @@ export const projects = [{
     backendRepo: '',
     deployedUrl: 'https://history-web-site.vercel.app/',
     styleIcon: cssLogo,
-    subtitle: "React • i18next • Router • Markdown • Carousel • CSS"
+    subtitle: "React • i18next • Router • Markdown • Carousel • CSS",
+    date: "2025-06-30",
+    type:"frontend"
 },
 {
     title: 'Art Gallery',
@@ -236,7 +258,9 @@ export const projects = [{
     backendRepo: 'https://github.com/RobertFacundo/galleryArtB',
     deployedUrl: 'https://galleryartb.onrender.com/',
     styleIcon: tailwindLogo,
-    subtitle: "React • Rails • PostgreSQL • JWT • Tailwind • Quiz"
+    subtitle: "React • Rails • PostgreSQL • JWT • Tailwind • Quiz",
+    date: "2025-07-09",
+    type:"fullstack"
 },
 {
     title: 'E-commerce',
@@ -246,7 +270,9 @@ export const projects = [{
     backendRepo: 'https://github.com/RobertFacundo/eCommerceB',
     deployedUrl: 'https://ecommerceb-tc17.onrender.com/',
     styleIcon: cssLogo,
-    subtitle: "React • Django • PostgreSQL • Auth • Cart • REST API"
+    subtitle: "React • Django • PostgreSQL • Auth • Cart • REST API",
+    date: "2025-04-14",
+    type:"fullstack"
 },
 {
     title: 'Photographic Portfolio',
@@ -256,7 +282,9 @@ export const projects = [{
     backendRepo: '',
     deployedUrl: 'https://photography-portfolio-template-taupe.vercel.app/',
     styleIcon: sassLogo,
-    subtitle: "React • Router • SCSS • Masonry • Responsive • Components"
+    subtitle: "React • Router • SCSS • Masonry • Responsive • Components",
+    date: "2025-06-27",
+    type:"frontend"
 },
 {
     title: 'Authentication',
@@ -266,7 +294,9 @@ export const projects = [{
     backendRepo: 'https://github.com/RobertFacundo/authB',
     deployedUrl: 'https://authb.onrender.com/',
     styleIcon: cssLogo,
-    subtitle: "React • Router • NestJS • PostgreSQL • Auth • REST API"
+    subtitle: "React • Router • NestJS • PostgreSQL • Auth • REST API",
+    date: "2025-03-20",
+    type:"fullstack"
 },
 ]
 
@@ -328,34 +358,34 @@ export const technicalChallenges = [
 // ];
 
 export const experienceData = [
-     {
-    date: "Apr 2026 - Currently",
-    type: "project",
-    titleKey: "exp_2026_apr_title",
-    descKey: "exp_2026_apr_desc",
-    link: ""
-  },
-  {
-    date: "Jan 2026 - Mar 2026",
-    type: "project",
-    titleKey: "exp_2026_title",
-    descKey: "exp_2026_desc",
-    link: ""
-  },
+    {
+        date: "Apr 2026 - Currently",
+        type: "project",
+        titleKey: "exp_2026_apr_title",
+        descKey: "exp_2026_apr_desc",
+        link: ""
+    },
+    {
+        date: "Jan 2026 - Mar 2026",
+        type: "project",
+        titleKey: "exp_2026_title",
+        descKey: "exp_2026_desc",
+        link: ""
+    },
 
-  {
-    date: "Jan 2025",
-    type: "study",
-    titleKey: "exp_2025_title",
-    descKey: "exp_2025_desc",
-    link: ""
-  },
+    {
+        date: "Jan 2025",
+        type: "study",
+        titleKey: "exp_2025_title",
+        descKey: "exp_2025_desc",
+        link: ""
+    },
 
-  {
-    date: "Jan 2024",
-    type: "study",
-    titleKey: "exp_2024_title",
-    descKey: "exp_2024_desc",
-    link: ""
-  }
+    {
+        date: "Jan 2024",
+        type: "study",
+        titleKey: "exp_2024_title",
+        descKey: "exp_2024_desc",
+        link: ""
+    }
 ];

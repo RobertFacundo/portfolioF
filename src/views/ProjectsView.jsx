@@ -1,14 +1,15 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import { projects } from "../data";
-import { StyledProjectsContainer, StyledProjectCard, StyledHighlight } from '../styles/ProjectViewsStyles.js';
-import reactLogo from '../assets/programmingLanguages/react.png'
+import { StyledProjectsContainer, StyledProjectCard, StyledHighlight, Filters, FilterButton } from '../styles/ProjectViewsStyles.js';
 import useAnalytics from "../hooks/useAnalytics.js";
 import { useTranslation, Trans } from "react-i18next";
-import {motion} from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 
 const ProjectsView = () => {
     const { increment } = useAnalytics('projectsView', 'tab');
     const { t } = useTranslation();
+    const [sortType, setSortType] = useState('latest');
+    const [filterType, setFilterType] = useState('all')
 
     useEffect(() => {
         increment();
@@ -27,42 +28,94 @@ const ProjectsView = () => {
         window.open(project.backendRepo, '_blank');
     };
 
+    const filteredAndSortedProjects = useMemo(() => {
+        let result = [...projects];
+
+        if (filterType !== 'all') {
+            result = result.filter(project => project.type === filterType);
+        }
+
+        result.sort((a, b) => {
+            return sortType === 'latest'
+                ? new Date(b.date) - new Date(a.date)
+                : new Date(a.date) - new Date(b.date);
+        });
+
+        return result;
+    }, [sortType, filterType]);
+
     return (
         <StyledProjectsContainer>
-            <div className="disclaimer-container">
-                <div className="disclaimer-left-container">
-                    <p className="disclaimer-left">
-                        <Trans
-                            i18nKey="disclaimer_left"
-                            components={{
-                                1: <img src={reactLogo} alt="React front end" className="tech-logo" />,
-                                2: <a href="https://vercel.com/robertfacundos-projects" target="_blank" rel="noopener noreferrer"></a>
-                            }}
-                        />
-                    </p>
-                </div>
-                <p className="disclaimer-right">
-                    <Trans
-                        i18nKey="disclaimer_star"
-                        components={{ highlight: <span /> }}
-                    />
-                </p>
-            </div>
+            <motion.div
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, ease: "easeOut" }}
+                className="filters-container"
+            >
+                <Filters>
+                    <div>
+                        <FilterButton
+                            active={sortType === 'latest'}
+                            onClick={() => setSortType('latest')}
+                        >
+                            Latest
+                        </FilterButton>
+
+                        <FilterButton
+                            active={sortType === 'oldest'}
+                            onClick={() => setSortType('oldest')}
+                        >
+                            Oldest
+                        </FilterButton>
+                    </div>
+
+                    <div>
+                        <FilterButton
+                            active={filterType === 'all'}
+                            onClick={() => setFilterType('all')}
+                        >
+                            All
+                        </FilterButton>
+
+                        <FilterButton
+                            active={filterType === 'frontend'}
+                            onClick={() => setFilterType('frontend')}
+                        >
+                            Frontend
+                        </FilterButton>
+
+                        <FilterButton
+                            active={filterType === 'fullstack'}
+                            onClick={() => setFilterType('fullstack')}
+                        >
+                            Fullstack
+                        </FilterButton>
+                    </div>
+                </Filters>
+            </motion.div>
             {
-                projects.map((project, index) => {
+                filteredAndSortedProjects.map((project, index) => {
                     return (
                         <motion.div
-                            key={index}
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: index * 0.15, duration: 0.5, ease: "easeOut" }}
+                            // key={project.title}
+                            // initial={{ opacity: 0, y: 20, scale: 0.98  }}
+                            // animate={{ opacity: 1, y: 0, scale:1 }}
+                            // transition={{ delay: index * 0.15, duration: 0.5, ease: "easeOut" }}
+                            key={project.title}
+                            layout
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{
+                                layout: { duration: 0.5, ease: "easeInOut" },
+                                opacity: { duration: 0.3 }
+                            }}
                         >
-                            <StyledProjectCard index={index} key={index} >
+                            <StyledProjectCard index={index} key={index} layout >
                                 <div className="card-info">
                                     <div>
                                         <h2 onClick={() => handleDeployedUrlClick(project)} style={{ cursor: 'pointer' }}>
                                             {project.title}
-                                            {project.star && <span style={{ marginLeft: '0.5rem' }}>⭐</span>}
                                         </h2>
                                         <p className="subtitle">{project.subtitle}</p>
                                     </div>

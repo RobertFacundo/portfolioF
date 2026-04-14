@@ -5,7 +5,8 @@ export const StyledAboutSection = styled.div`
         padding-top: 3rem;
         border-bottom: 1px solid rgba(0, 255, 65, 0.2);
         letter-spacing: 0.1rem;
-        font-size: 1.9em;
+        font-size: 2.3em;
+        font-family: "Space Grotesk", sans-serif;
 
         @media (max-width: 768px){
             font-size: 1.5rem;

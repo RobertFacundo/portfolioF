@@ -29,8 +29,7 @@ export const StyledSideBarTitle = styled.h1`
   font-size: 2.1em;
   color: #00FF41; 
   letter-spacing: 2px;
-  
-  
+  font-family: "Space Grotesk", sans-serif;
   
   &::before {
     content: " "; 
