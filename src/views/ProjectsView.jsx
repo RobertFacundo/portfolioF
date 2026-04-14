@@ -44,6 +44,17 @@ const ProjectsView = () => {
         return result;
     }, [sortType, filterType]);
 
+    const sortOptions = [
+        { labelKey: "latest", value: 'latest' },
+        { labelKey: "oldest", value: 'oldest' }
+    ];
+
+    const filterOptions = [
+        { labelKey: 'all', value: 'all' },
+        { labelKey: 'Frontend', value: 'frontend' },
+        { labelKey: 'Fullstack', value: 'fullstack' }
+    ]
+
     return (
         <StyledProjectsContainer>
             <motion.div
@@ -54,42 +65,27 @@ const ProjectsView = () => {
             >
                 <Filters>
                     <div>
-                        <FilterButton
-                            active={sortType === 'latest'}
-                            onClick={() => setSortType('latest')}
-                        >
-                            Latest
-                        </FilterButton>
-
-                        <FilterButton
-                            active={sortType === 'oldest'}
-                            onClick={() => setSortType('oldest')}
-                        >
-                            Oldest
-                        </FilterButton>
+                        {sortOptions.map((option) => (
+                            <FilterButton
+                                key={option.value}
+                                active={sortType === option.value}
+                                onClick={() => setSortType(option.value)}
+                            >
+                                {t(option.labelKey)}
+                            </FilterButton>
+                        ))}
                     </div>
 
                     <div>
-                        <FilterButton
-                            active={filterType === 'all'}
-                            onClick={() => setFilterType('all')}
-                        >
-                            All
-                        </FilterButton>
-
-                        <FilterButton
-                            active={filterType === 'frontend'}
-                            onClick={() => setFilterType('frontend')}
-                        >
-                            Frontend
-                        </FilterButton>
-
-                        <FilterButton
-                            active={filterType === 'fullstack'}
-                            onClick={() => setFilterType('fullstack')}
-                        >
-                            Fullstack
-                        </FilterButton>
+                        {filterOptions.map((option) => (
+                            <FilterButton
+                                key={option.value}
+                                active={filterType === option.value}
+                                onClick={() => setFilterType(option.value)}
+                            >
+                                {t(option.labelKey)}
+                            </FilterButton>
+                        ))}
                     </div>
                 </Filters>
             </motion.div>

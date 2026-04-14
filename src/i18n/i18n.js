@@ -46,7 +46,11 @@ const resources = {
                 "After completing my <highlight>full stack studies</highlight>, I focused on strengthening my knowledge by building <highlight>multiple projects</highlight>, learning new libraries, improving <highlight>UI design</highlight>, animations, <highlight>state management</highlight> and API integration to reach a <highlight>professional level</highlight>",
             "exp_2024_title": "Full Stack MERN Career Start",
             "exp_2024_desc":
-                "Started my <highlight>full stack development</highlight> career at Coderhouse, completing courses in <highlight>HTML</highlight>, <highlight>CSS</highlight>, <highlight>JavaScript</highlight>, <highlight>React</highlight> and <highlight>Node</highlight> backend. During this stage I learned the fundamentals of <highlight>modern web development</highlight> and built my first <highlight>applications</highlight>"
+                "Started my <highlight>full stack development</highlight> career at Coderhouse, completing courses in <highlight>HTML</highlight>, <highlight>CSS</highlight>, <highlight>JavaScript</highlight>, <highlight>React</highlight> and <highlight>Node</highlight> backend. During this stage I learned the fundamentals of <highlight>modern web development</highlight> and built my first <highlight>applications</highlight>",
+            "latest": "Latests",
+            "oldest": "Oldest",
+            "all": "All",
+
         }
     },
     es: {
@@ -99,7 +103,11 @@ const resources = {
             "exp_2024_title": "Inicio de Carrera Full Stack MERN",
 
             "exp_2024_desc":
-                "Comencé mi carrera de <highlight>desarrollo full stack</highlight> en Coderhouse, completando cursos de <highlight>HTML</highlight>, <highlight>CSS</highlight>, <highlight>JavaScript</highlight>, <highlight>React</highlight> y backend con <highlight>Node</highlight>. Durante esta etapa aprendí los fundamentos del <highlight>desarrollo web moderno</highlight> y construí mis primeras <highlight>aplicaciones</highlight>"
+                "Comencé mi carrera de <highlight>desarrollo full stack</highlight> en Coderhouse, completando cursos de <highlight>HTML</highlight>, <highlight>CSS</highlight>, <highlight>JavaScript</highlight>, <highlight>React</highlight> y backend con <highlight>Node</highlight>. Durante esta etapa aprendí los fundamentos del <highlight>desarrollo web moderno</highlight> y construí mis primeras <highlight>aplicaciones</highlight>",
+            "latest": "Recientes",
+            "oldest": "Antiguos",
+            "all": "Todos",
+
         }
     }
 };
