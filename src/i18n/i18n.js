@@ -47,7 +47,7 @@ const resources = {
             "exp_2024_title": "Full Stack MERN Career Start",
             "exp_2024_desc":
                 "Started my <highlight>full stack development</highlight> career at Coderhouse, completing courses in <highlight>HTML</highlight>, <highlight>CSS</highlight>, <highlight>JavaScript</highlight>, <highlight>React</highlight> and <highlight>Node</highlight> backend. During this stage I learned the fundamentals of <highlight>modern web development</highlight> and built my first <highlight>applications</highlight>",
-            "latest": "Latests",
+            "latest": "Latest",
             "oldest": "Oldest",
             "all": "All",
 

@@ -25,7 +25,7 @@ export const FilterButton = styled.button`
     &::after {
     content: '';
     display: block;
-    height: 1px;
+    height: 2px;
     width: ${({ active }) => active ? '100%' : '0%'};
     background: #39ff14;
     transition: width 0.3s ease;
