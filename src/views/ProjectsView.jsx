@@ -93,14 +93,10 @@ const ProjectsView = () => {
                 filteredAndSortedProjects.map((project, index) => {
                     return (
                         <motion.div
-                            // key={project.title}
-                            // initial={{ opacity: 0, y: 20, scale: 0.98  }}
-                            // animate={{ opacity: 1, y: 0, scale:1 }}
-                            // transition={{ delay: index * 0.15, duration: 0.5, ease: "easeOut" }}
                             key={project.title}
                             layout
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
+                            initial={{ opacity: 0, y: -10 }}
+                            animate={{ opacity: 1, y: 0 }}
                             exit={{ opacity: 0 }}
                             transition={{
                                 layout: { duration: 0.5, ease: "easeInOut" },
