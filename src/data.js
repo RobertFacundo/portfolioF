@@ -119,7 +119,7 @@ export const certifications = [
 
 export const projects = [
     {
-        title: 'Landing Python',
+        title: 'Landing',
         projectImage: landingPython,
         backendIcon: '',
         frontendRepo: 'https://github.com/RobertFacundo/parte-2',
