@@ -61,7 +61,8 @@ import sushiEcommerce from './assets/projects/sushiEcommerce.png'
 import musicApp from './assets/projects/musicApp.png';
 import gymEcommerce from './assets/projects/gymEcommerce.png';
 import landingPython from './assets/projects/landingPython.png';
-import positivus from './assets/projects/positivus.png'
+import positivus from './assets/projects/positivus.png';
+import EcommerceUI from './assets/projects/EcommerceUI.png';
 
 export const languageLogos = [
     // ================= CORE STACK =================
@@ -118,6 +119,15 @@ export const certifications = [
 ];
 
 export const projects = [
+     {
+        title: 'Ecommerce UI',
+        projectImage: EcommerceUI,
+        frontendRepo: 'https://github.com/RobertFacundo/figmaEcommerceUI',
+        deployedUrl: 'https://figma-ecommerce-ui.vercel.app/',
+        subtitle: "React • Tailwind CSS • Framer Motion • TypeScript • Redux",
+        date: "2026-04-23",
+        type: "frontend"
+    },
     {
         title: 'Landing',
         projectImage: landingPython,
