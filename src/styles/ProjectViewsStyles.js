@@ -58,10 +58,23 @@ export const StyledProjectsContainer = styled.div`
 `;
 
 export const StyledProjectCard = styled.div`
+    position: relative;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 8px;
     overflow: hidden;
     transition: all 0.4s ease;
+
+      ${({ isWip }) =>
+        isWip &&
+        `
+        border: 1px solid rgba(255, 165, 0, 0.35);
+        box-shadow: 0 0 20px rgba(255, 165, 0, 0.12);
+        background: linear-gradient(
+            135deg,
+            rgba(255, 165, 0, 0.05),
+            transparent
+        );
+    `}
 
     &:hover {
         h2 {
@@ -134,6 +147,33 @@ export const StyledProjectCard = styled.div`
             color: #00FF41;
             transform: scale(1.05);
         }
+    }
+    .wip-badge {
+        position: absolute;
+        top: 50%;
+        right: 25%;
+
+        background: rgba(0, 255, 65, 1);
+        color: black;
+        border: 1px solid rgba(0, 255, 65, 0.35);
+
+        font-size: 0.9rem;
+        font-weight: bold;
+        padding: 4px 10px;
+        border-radius: 999px;
+
+        letter-spacing: 1px;
+        z-index: 10;
+
+        text-transform: uppercase;
+
+        animation: pulse 1.5s infinite ease-in-out;
+    }
+
+    @keyframes pulse {
+        0% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(1.05); opacity: 0.8; }
+        100% { transform: scale(1); opacity: 1; }
     }
 `;
 

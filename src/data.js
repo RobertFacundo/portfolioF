@@ -63,6 +63,7 @@ import gymEcommerce from './assets/projects/gymEcommerce.png';
 import landingPython from './assets/projects/landingPython.png';
 import positivus from './assets/projects/positivus.png';
 import EcommerceUI from './assets/projects/EcommerceUI.png';
+import furniro from './assets/projects/furniro.png'
 
 export const languageLogos = [
     // ================= CORE STACK =================
@@ -119,8 +120,18 @@ export const certifications = [
 ];
 
 export const projects = [
+    {
+        title:  "Furniture E-commerce UI Kit",
+        projectImage: furniro,
+        frontendRepo: 'https://github.com/RobertFacundo/furnitureEcommerce',
+        deployedUrl: 'https://furniture-ecommerce-azure.vercel.app/',
+        subtitle: "React • Tailwind CSS • Framer Motion • TypeScript • Redux",
+        isWip: true,
+        date: "2026-04-26",
+        type: "frontend"
+    },
      {
-        title: 'Ecommerce UI',
+        title:  "E-commerce UI (Figma → Code)",
         projectImage: EcommerceUI,
         frontendRepo: 'https://github.com/RobertFacundo/figmaEcommerceUI',
         deployedUrl: 'https://figma-ecommerce-ui.vercel.app/',

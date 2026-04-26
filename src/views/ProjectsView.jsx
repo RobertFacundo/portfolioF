@@ -104,6 +104,11 @@ const ProjectsView = () => {
                             }}
                         >
                             <StyledProjectCard index={index} key={index} layout >
+                                {project.isWip && (
+                                    <div className="wip-badge">
+                                        🚧 Work in Progress
+                                    </div>
+                                )}
                                 <div className="card-info">
                                     <div>
                                         <h2 onClick={() => handleDeployedUrlClick(project)} style={{ cursor: 'pointer' }}>
