@@ -24,7 +24,7 @@ const resources = {
             "disclaimer_star": "<highlight>⭐</highlight> Full-Stack projects with professional architecture.",
 
             "total_coding_time_title": "Total Coding Time",
-            "last_updated_label": "Last Monthly Updated",
+            "last_updated_label": "Last Weekly Updated",
 
             "challenge_seat_map_title": "Seat Map Builder",
             "challenge_seat_map_date": "September 2025",
@@ -74,7 +74,7 @@ const resources = {
             "disclaimer_star": "<highlight>⭐</highlight> Proyectos Full-Stack con arquitectura profesional.",
 
             "total_coding_time_title": "Tiempo total de Codigo",
-            "last_updated_label": "Última actualización mensual",
+            "last_updated_label": "Última actualización semanal",
 
             "challenge_seat_map_title": "Constructor de Mapas de Asientos",
             "challenge_seat_map_date": "Septiembre de 2025",
