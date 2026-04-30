@@ -390,7 +390,7 @@ export const technicalChallenges = [
 
 //     {
 //         date: "Jan 2025",
-//         type: "study",
+//         type: "study",agaga
 //         title: "Advanced Practice and Skill Reinforcement",
 //         description:
 //             "After completing my full stack studies, I focused on strengthening my knowledge by building multiple projects, learning new libraries, improving UI design, animations, state management and API integration to reach a professional level.",
