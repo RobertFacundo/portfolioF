@@ -126,7 +126,6 @@ export const projects = [
         frontendRepo: 'https://github.com/RobertFacundo/furnitureEcommerce',
         deployedUrl: 'https://furniture-ecommerce-azure.vercel.app/',
         subtitle: "React • Tailwind CSS • Framer Motion • TypeScript • Redux",
-        isWip: true,
         date: "2026-04-26",
         type: "frontend"
     },
