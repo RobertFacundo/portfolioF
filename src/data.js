@@ -63,7 +63,8 @@ import gymEcommerce from './assets/projects/gymEcommerce.png';
 import landingPython from './assets/projects/landingPython.png';
 import positivus from './assets/projects/positivus.png';
 import EcommerceUI from './assets/projects/EcommerceUI.png';
-import furniro from './assets/projects/furniro.png'
+import furniro from './assets/projects/furniro.png';
+import flower from './assets/projects/flowerDelivery.png';
 
 export const languageLogos = [
     // ================= CORE STACK =================
@@ -121,7 +122,17 @@ export const certifications = [
 
 export const projects = [
     {
-        title:  "Furniture E-commerce UI Kit",
+        title: "Flower Ecommerce",
+        projectImage: flower,
+        frontendRepo: 'https://github.com/RobertFacundo/flowerDelivery',
+        deployedUrl: 'https://flower-delivery-ecru.vercel.app/',
+        subtitle: "React • Tailwind CSS • React Router • GSAP • CSS Grid • Lenis",
+        isWip: true,
+        date: "2026-05-05",
+        type: "frontend"
+    },
+    {
+        title: "Furniture E-commerce UI Kit",
         projectImage: furniro,
         frontendRepo: 'https://github.com/RobertFacundo/furnitureEcommerce',
         deployedUrl: 'https://furniture-ecommerce-azure.vercel.app/',
@@ -129,8 +140,8 @@ export const projects = [
         date: "2026-04-26",
         type: "frontend"
     },
-     {
-        title:  "E-commerce UI (Figma → Code)",
+    {
+        title: "E-commerce UI (Figma → Code)",
         projectImage: EcommerceUI,
         frontendRepo: 'https://github.com/RobertFacundo/figmaEcommerceUI',
         deployedUrl: 'https://figma-ecommerce-ui.vercel.app/',
