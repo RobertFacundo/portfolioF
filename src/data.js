@@ -126,8 +126,7 @@ export const projects = [
         projectImage: flower,
         frontendRepo: 'https://github.com/RobertFacundo/flowerDelivery',
         deployedUrl: 'https://flower-delivery-ecru.vercel.app/',
-        subtitle: "React • Tailwind CSS • React Router • GSAP • CSS Grid • Lenis",
-        isWip: true,
+        subtitle:  "React • Redux Toolkit • Tailwind CSS • React Router • GSAP • Lenis • CSS Grid",
         date: "2026-05-05",
         type: "frontend"
     },
