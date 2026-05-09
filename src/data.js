@@ -346,18 +346,7 @@ export const projects = [
         date: "2025-06-27",
         type: "frontend"
     },
-    {
-        title: 'Authentication',
-        projectImage: auth,
-        backendIcon: nestLogo,
-        frontendRepo: 'https://github.com/RobertFacundo/authF',
-        backendRepo: 'https://github.com/RobertFacundo/authB',
-        deployedUrl: 'https://authb.onrender.com/',
-        styleIcon: cssLogo,
-        subtitle: "React • Router • NestJS • PostgreSQL • Auth • REST API",
-        date: "2025-03-20",
-        type: "fullstack"
-    },
+
 ]
 
 export const technicalChallenges = [
