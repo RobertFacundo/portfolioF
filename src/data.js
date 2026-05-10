@@ -65,6 +65,7 @@ import positivus from './assets/projects/positivus.png';
 import EcommerceUI from './assets/projects/EcommerceUI.png';
 import furniro from './assets/projects/furniro.png';
 import flower from './assets/projects/flowerDelivery.png';
+import halloweenLanding from './assets/projects/halloweenLanding.png'
 
 export const languageLogos = [
     // ================= CORE STACK =================
@@ -121,6 +122,15 @@ export const certifications = [
 ];
 
 export const projects = [
+    {
+        title: "Halloween Landing",
+        projectImage: halloweenLanding,
+        frontendRepo: 'https://github.com/RobertFacundo/halloweenLanding',
+        deployedUrl: 'https://halloween-landing-rho.vercel.app/',
+        subtitle:  "React • Three.js • Tailwind CSS • React Router • GSAP • Lenis • Interactive Landing",
+        date: "2026-05-10",
+        type: "frontend"
+    },
     {
         title: "Flower Ecommerce",
         projectImage: flower,
