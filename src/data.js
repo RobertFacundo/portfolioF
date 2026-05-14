@@ -127,7 +127,6 @@ export const projects = [
         projectImage: halloweenLanding,
         frontendRepo: 'https://github.com/RobertFacundo/halloweenLanding',
         deployedUrl: 'https://halloween-landing-rho.vercel.app/',
-        isWip: true,
         subtitle:  "React • Tailwind CSS • TypeScript • Three.js •  GSAP • Lenis",
         date: "2026-05-10",
         type: "frontend"
