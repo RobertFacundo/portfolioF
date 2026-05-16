@@ -126,7 +126,7 @@ const ProjectsView = () => {
                                             onClick={() => handleFrontendRepoClick(project)}
                                             className="project-link"
                                         >
-                                            Frontend Repo
+                                            Git Hub Repo
                                         </p>
                                     )}
                                     {project.deployedUrl && (
