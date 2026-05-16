@@ -65,7 +65,8 @@ import positivus from './assets/projects/positivus.png';
 import EcommerceUI from './assets/projects/EcommerceUI.png';
 import furniro from './assets/projects/furniro.png';
 import flower from './assets/projects/flowerDelivery.png';
-import halloweenLanding from './assets/projects/halloweenLanding.png'
+import halloweenLanding from './assets/projects/halloweenLanding.png';
+import christmasLanding from './assets/projects/christmasLanding.png'
 
 export const languageLogos = [
     // ================= CORE STACK =================
@@ -123,11 +124,21 @@ export const certifications = [
 
 export const projects = [
     {
+        title: "Christmas Landing",
+        projectImage: christmasLanding,
+        frontendRepo: 'https://github.com/RobertFacundo/christmas-landing',
+        deployedUrl: 'https://christmas-landing-kappa.vercel.app/',
+        isWip: true,
+        subtitle: "Next • Tailwind CSS • TypeScript • Three.js •  GSAP • Lenis",
+        date: "2026-05-16",
+        type: "frontend"
+    },
+    {
         title: "Halloween Landing",
         projectImage: halloweenLanding,
         frontendRepo: 'https://github.com/RobertFacundo/halloweenLanding',
         deployedUrl: 'https://halloween-landing-rho.vercel.app/',
-        subtitle:  "React • Tailwind CSS • TypeScript • Three.js •  GSAP • Lenis",
+        subtitle: "React • Tailwind CSS • TypeScript • Three.js •  GSAP • Lenis",
         date: "2026-05-10",
         type: "frontend"
     },
@@ -136,7 +147,7 @@ export const projects = [
         projectImage: flower,
         frontendRepo: 'https://github.com/RobertFacundo/flowerDelivery',
         deployedUrl: 'https://flower-delivery-ecru.vercel.app/',
-        subtitle:  "React • Redux Toolkit • Tailwind CSS • React Router • GSAP • Lenis • CSS Grid",
+        subtitle: "React • Redux Toolkit • Tailwind CSS • React Router • GSAP • Lenis • CSS Grid",
         date: "2026-05-05",
         type: "frontend"
     },
