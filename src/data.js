@@ -128,7 +128,6 @@ export const projects = [
         projectImage: christmasLanding,
         frontendRepo: 'https://github.com/RobertFacundo/christmas-landing',
         deployedUrl: 'https://christmas-landing-kappa.vercel.app/',
-        isWip: true,
         subtitle: "Next • Tailwind CSS • TypeScript • Three.js •  GSAP • Lenis",
         date: "2026-05-16",
         type: "frontend"
