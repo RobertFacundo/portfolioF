@@ -66,7 +66,8 @@ import EcommerceUI from './assets/projects/EcommerceUI.png';
 import furniro from './assets/projects/furniro.png';
 import flower from './assets/projects/flowerDelivery.png';
 import halloweenLanding from './assets/projects/halloweenLanding.png';
-import christmasLanding from './assets/projects/christmasLanding.png'
+import christmasLanding from './assets/projects/christmasLanding.png';
+import bookStore from './assets/projects/bookStore.png'
 
 export const languageLogos = [
     // ================= CORE STACK =================
@@ -123,6 +124,16 @@ export const certifications = [
 ];
 
 export const projects = [
+     {
+        title: "Book Store",
+        projectImage: bookStore,
+        frontendRepo: 'https://github.com/RobertFacundo/book-store',
+        deployedUrl: 'https://book-store-zeta-ruby.vercel.app/',
+        subtitle: "Next.js • TypeScript • Tailwind CSS • Zustand • React Query • GSAP • Lenis",
+        isWip:true,
+        date: "2026-05-26",
+        type: "frontend"
+    },
     {
         title: "Christmas Landing",
         projectImage: christmasLanding,
