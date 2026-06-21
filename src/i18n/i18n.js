@@ -24,7 +24,7 @@ const resources = {
             "disclaimer_star": "<highlight>⭐</highlight> Full-Stack projects with professional architecture.",
 
             "total_coding_time_title": "Total Coding Time",
-            "last_updated_label": "Last Weekly Updated",
+            "last_updated_label": "Latest weekly update",
 
             "challenge_seat_map_title": "Seat Map Builder",
             "challenge_seat_map_date": "September 2025",
