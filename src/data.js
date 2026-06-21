@@ -130,7 +130,6 @@ export const projects = [
         frontendRepo: 'https://github.com/RobertFacundo/book-store',
         deployedUrl: 'https://book-store-zeta-ruby.vercel.app/',
         subtitle: "Next.js • TypeScript • Tailwind CSS • Zustand • React Query • GSAP • Lenis",
-        isWip:true,
         date: "2026-05-26",
         type: "frontend"
     },
