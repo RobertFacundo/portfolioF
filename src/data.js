@@ -67,7 +67,8 @@ import furniro from './assets/projects/furniro.png';
 import flower from './assets/projects/flowerDelivery.png';
 import halloweenLanding from './assets/projects/halloweenLanding.png';
 import christmasLanding from './assets/projects/christmasLanding.png';
-import bookStore from './assets/projects/bookStore.png'
+import bookStore from './assets/projects/bookStore.png';
+import vinylRecord from './assets/projects/vinylRecord.png'
 
 export const languageLogos = [
     // ================= CORE STACK =================
@@ -124,7 +125,17 @@ export const certifications = [
 ];
 
 export const projects = [
-     {
+    {
+        title: "Vinyl Record Ecommerce",
+        projectImage: vinylRecord,
+        frontendRepo: 'https://github.com/RobertFacundo/vinylEcommerce',
+        deployedUrl: 'https://vinyl-ecommerce.vercel.app/',
+        subtitle: "Next.js • TypeScript • Tailwind CSS • Zustand • React Query • Integration with Deezer REST API • GSAP • Lenis",
+        date: "2026-06-23",
+        isWip: true,
+        type: "frontend"
+    },
+    {
         title: "Book Store",
         projectImage: bookStore,
         frontendRepo: 'https://github.com/RobertFacundo/book-store',
