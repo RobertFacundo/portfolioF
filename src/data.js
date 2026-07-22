@@ -69,6 +69,7 @@ import halloweenLanding from './assets/projects/halloweenLanding.png'
 import christmasLanding from './assets/projects/christmasLanding.png'
 import bookStore from './assets/projects/bookStore.png'
 import vinylRecord from './assets/projects/vinylEcommerce.png'
+import tourismLanding from './assets/projects/tourismLanding.png'
 
 export const languageLogos = [
   // ================= CORE STACK =================
@@ -295,6 +296,17 @@ export const certifications = [
 ]
 
 export const projects = [
+  {
+    title: 'Tourism Landing',
+    projectImage: tourismLanding,
+    frontendRepo: 'https://github.com/RobertFacundo/tourism-landing',
+    deployedUrl: 'https://tourism-landing-lovat.vercel.app/',
+    isWip: true,
+    subtitle:
+      'Next.js • TypeScript • Tailwind CSS • GSAP • Lenis • Zustand • Cinematic Scroll Experience',
+    date: '2026-07-22',
+    type: 'frontend'
+  },
   {
     title: 'Vinyl Record Ecommerce',
     projectImage: vinylRecord,
