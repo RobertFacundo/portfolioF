@@ -301,7 +301,6 @@ export const projects = [
     projectImage: tourismLanding,
     frontendRepo: 'https://github.com/RobertFacundo/tourism-landing',
     deployedUrl: 'https://tourism-landing-lovat.vercel.app/',
-    isWip: true,
     subtitle:
       'Next.js • TypeScript • Tailwind CSS • GSAP • Lenis • Zustand • Cinematic Scroll Experience',
     date: '2026-07-22',
