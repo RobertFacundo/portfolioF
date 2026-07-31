@@ -70,6 +70,7 @@ import christmasLanding from './assets/projects/christmasLanding.png'
 import bookStore from './assets/projects/bookStore.png'
 import vinylRecord from './assets/projects/vinylEcommerce.png'
 import tourismLanding from './assets/projects/tourismLanding.png'
+import newPortfolio from './assets/projects/new-portfolio.png'
 
 export const languageLogos = [
   // ================= CORE STACK =================
@@ -296,6 +297,16 @@ export const certifications = [
 ]
 
 export const projects = [
+  {
+    title: 'New Portfolio',
+    projectImage: newPortfolio,
+    frontendRepo: 'https://github.com/RobertFacundo/new-portfolio',
+    deployedUrl: 'https://new-portfolio-one-sooty.vercel.app/',
+    subtitle: 'Next.js • TypeScript • Tailwind CSS • GSAP • Lenis • Zustand',
+    isWip: true,
+    date: '2026-07-26',
+    type: 'frontend'
+  },
   {
     title: 'Tourism Landing',
     projectImage: tourismLanding,
